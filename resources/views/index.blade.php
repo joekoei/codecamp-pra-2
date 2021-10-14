@@ -9,3 +9,11 @@
         <a id="sec-4" href="#">Contacten</a>
     </div>
 @endsection
+
+@section('content')
+
+@endsection
+
+@section('footer')
+
+@endsection
