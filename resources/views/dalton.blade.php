@@ -32,5 +32,11 @@
 @endsection
 
 @section('footer')
+    <div class="footer">
+        <div class="footer-text">
+            <p>&copy; CodeCamp | Made by DevByte</p>
+        </div>
+    </div>
+
 
 @endsection
