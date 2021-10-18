@@ -28,3 +28,7 @@ Route::get('/PlugInBaby', function () {
 Route::get('/books', function () {
     return view('books');
 });
+
+Route::get('/dalton', function () {
+    return view('dalton');
+});

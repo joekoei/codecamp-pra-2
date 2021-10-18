@@ -58,6 +58,18 @@ a {
     margin:auto;
 }
 
+.container h1{
+    font-size: 50px;
+}
+
+.container h2{
+    font-size: 28px;
+}
+
+.container p{
+    font-size: 20px;
+}
+
 /* bohemianRhapsody */
 
 .songtext p{
@@ -108,4 +120,34 @@ a {
 .books p{
     font-family: 'LatoMedium', sans-serif;
     margin-top: 20px;
+}
+
+/* dalton */
+
+.dalton{
+    color: white;
+}
+
+.dalton h1{
+    font-family: 'LatoMedium', sans-serif;
+    padding-top: 20px;
+}
+
+.dalton h2{
+    font-family: 'LatoMedium', sans-serif;
+    margin-top: 20px;
+}
+
+.dalton p{
+    font-family: 'LatoMedium', sans-serif;
+    margin-top: 20px;
+}
+
+.backgroundcolorGreen{
+    background-color:#317f43;
+    height: 100%;
+}
+
+.daltonLastP{
+    padding-bottom: 477px;
 }
