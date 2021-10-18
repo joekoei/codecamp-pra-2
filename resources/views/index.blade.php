@@ -25,8 +25,8 @@
             $.ajax({url: "time.php", success: function(response){
                     $('.time').html(response);
                 }});
-            setInterval(updateTime, 1000);
         }
+        setInterval(updateTime, 1000);
 
         updateTime();
     </script>
