@@ -17,30 +17,30 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/bohemianRhapsody', function () {
-    return view('bohemianRhapsody');
+Route::get('/songtexts/bohemianRhapsody', function () {
+    return view('/songtexts/bohemianRhapsody');
 });
 
-Route::get('/PlugInBaby', function () {
-    return view('PlugInBaby');
+Route::get('/songtexts/PlugInBaby', function () {
+    return view('/songtexts/PlugInBaby');
 });
 
-Route::get('/books', function () {
-    return view('books');
+Route::get('/generalItems/books', function () {
+    return view('/generalItems/books');
 });
 
-Route::get('/dalton', function () {
-    return view('dalton');
+Route::get('/generalItems/dalton', function () {
+    return view('/generalItems/dalton');
 });
 
-Route::get('/dalton', function () {
-    return view('dalton');
+Route::get('/generalItems/dalton', function () {
+    return view('/generalItems/dalton');
 });
 
-Route::get('/weAreTheChampions', function () {
-    return view('weAreTheChampions');
+Route::get('/songtexts//weAreTheChampions', function () {
+    return view('/songtexts/weAreTheChampions');
 });
 
-Route::get('/uprisingMyBaby', function () {
-    return view('uprisingMyBaby');
+Route::get('/songtexts/uprisingMyBaby', function () {
+    return view('/songtexts/uprisingMyBaby');
 });
