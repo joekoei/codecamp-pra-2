@@ -1,3 +1,4 @@
+
 * {
 
     margin: 0;
@@ -27,9 +28,64 @@ a {
 
 
 /* Datum & Tijd */
-h1 {
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 100px;
+.time h1 {
+    margin: 0 auto;
+    margin-top: 40px;
     font-size: 25px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    position: relative;
+    left: 600px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+
+
+/* container */
+
+.container{
+    width: 968px;
+    margin:auto;
+}
+
+/* bohemianRhapsody */
+
+.songtext p{
+    font-family: 'LatoMedium', sans-serif;
+    color: white;
+}
+
+.songtext h1{
+    font-family: 'LatoMedium', sans-serif;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.backgroundBlue{
+    background-color: blue;
+    height: 100%;
+}
+
+.bohemianRhapsody{
+    padding-top:20px ;
+    padding-bottom:20px;
+}
+
+/* plugInBaby */
+
+.backgroundOrange{
+    background-color: orange;
+    height: 100%;
+}
+
+.plugInBaby{
+    padding-top: 20px;
+    padding-bottom: 323px;
 }

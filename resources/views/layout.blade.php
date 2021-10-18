@@ -8,6 +8,12 @@
     <title>CodeCamp PRA | Home </title>
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=LatoMedium&display=swap');
+    </style>
 
 
 </head>
