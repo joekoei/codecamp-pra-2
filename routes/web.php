@@ -24,3 +24,7 @@ Route::get('/bohemianRhapsody', function () {
 Route::get('/PlugInBaby', function () {
     return view('PlugInBaby');
 });
+
+Route::get('/books', function () {
+    return view('books');
+});
