@@ -84,7 +84,7 @@ a {
 }
 
 .backgroundBlue{
-    background-color: blue;
+    background-color: #4682b4;
     height: 100%;
 }
 
@@ -144,6 +144,7 @@ a {
 }
 
 .backgroundcolorGreen{
+    border-top: 1px solid #000;
     background-color:#317f43;
     height: 100%;
 }
