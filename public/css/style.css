@@ -17,7 +17,7 @@
     padding-top: 25px;
     padding-bottom: 25px;
     text-decoration: none;
-    font-family: 'LatoMedium', sans-serif;
+
 }
 
 a {
@@ -151,24 +151,4 @@ a {
 
 .daltonLastP{
     padding-bottom: 477px;
-}
-
-/*--------------------- Footer CSS ---------------------*/
-
-.footer {
-
-    background-color: #317f43;
-    margin-top: 646px;
-    font-family: 'LatoMedium', sans-serif;
-    text-align: center;
-
-}
-
-.footer p {
-
-    color: white;
-    width: 968px;
-    margin: 0 auto;
-    padding-top: 25px;
-    padding-bottom: 25px;
 }

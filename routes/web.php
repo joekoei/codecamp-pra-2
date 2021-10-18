@@ -40,3 +40,7 @@ Route::get('/dalton', function () {
 Route::get('/weAreTheChampions', function () {
     return view('weAreTheChampions');
 });
+
+Route::get('/uprisingMyBaby', function () {
+    return view('uprisingMyBaby');
+});
