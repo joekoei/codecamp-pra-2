@@ -32,3 +32,11 @@ Route::get('/books', function () {
 Route::get('/dalton', function () {
     return view('dalton');
 });
+
+Route::get('/dalton', function () {
+    return view('dalton');
+});
+
+Route::get('/weAreTheChampions', function () {
+    return view('weAreTheChampions');
+});
