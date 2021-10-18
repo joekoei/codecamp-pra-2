@@ -26,6 +26,9 @@ a {
     padding-top: 10px;
 }
 
+.navbar img{
+    margin-right: 1100px;
+}
 
 /* Datum & Tijd */
 .time h1 {
@@ -88,4 +91,21 @@ a {
 .plugInBaby{
     padding-top: 20px;
     padding-bottom: 323px;
+}
+
+/* boeken */
+
+.books h1{
+    font-family: 'LatoMedium', sans-serif;
+    margin-top: 20px;
+}
+
+.books h2{
+    font-family: 'LatoMedium', sans-serif;
+    margin-top: 20px;
+}
+
+.books p{
+    font-family: 'LatoMedium', sans-serif;
+    margin-top: 20px;
 }
