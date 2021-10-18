@@ -51,6 +51,23 @@ a {
 
 }
 
+/*--------------------- Footer CSS ---------------------*/
+
+.footer {
+
+    background-color: #317f43;
+    text-align: center;
+    margin-top: 646px;
+}
+
+.footer-text {
+
+    font-family: 'LatoMedium', sans-serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+}
+
 
 /* container */
 
