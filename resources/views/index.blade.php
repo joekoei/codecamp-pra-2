@@ -9,11 +9,25 @@
         <a id="sec-4" href="#">Contacten</a>
     </div>
 @endsection
-
 @section('content')
 
+    <div class="time">
+
+    </div>
 @endsection
 
 @section('footer')
 
+@endsection
+@section('script')
+    <script>
+        const updateTime = function(){
+            $.ajax({url: "time.php", success: function(response){
+                    $('.time').html(response);
+                }});
+            setInterval(updateTime, 1000);
+        }
+
+        updateTime();
+    </script>
 @endsection

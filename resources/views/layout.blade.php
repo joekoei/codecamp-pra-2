@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CodeCamp PRA | Home </title>
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 
 </head>
@@ -14,5 +15,6 @@
 @yield('nav')
 @yield('content')
 @yield('footer')
+@yield('script')
 </body>
 </html>
