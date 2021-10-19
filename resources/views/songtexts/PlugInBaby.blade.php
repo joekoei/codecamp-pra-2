@@ -10,7 +10,7 @@
     </div>
 @endsection
 @section('content')
-<div class="backgroundOrange">
+<body class="orange">
     <div class="container">
         <div class="songtext">
             <div class="plugInBaby">
@@ -45,7 +45,7 @@
             </div>
         </div>
     </div>
-</div>
+</body>
 @endsection
 
 @section('footer')

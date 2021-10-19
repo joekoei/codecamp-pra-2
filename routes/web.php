@@ -37,10 +37,46 @@ Route::get('/generalItems/dalton', function () {
     return view('/generalItems/dalton');
 });
 
-Route::get('/songtexts//weAreTheChampions', function () {
+Route::get('/songtexts/weAreTheChampions', function () {
     return view('/songtexts/weAreTheChampions');
 });
 
 Route::get('/songtexts/uprisingMyBaby', function () {
     return view('/songtexts/uprisingMyBaby');
+});
+
+Route::get('/songtexts/killerQueen', function () {
+    return view('/songtexts/killerQueen');
+});
+
+Route::get('/songtexts/ironMaiden', function () {
+    return view('/songtexts/ironMaiden');
+});
+
+Route::get('/generalItems/chainsaw', function () {
+    return view('/generalItems/chainsaw');
+});
+
+Route::get('/generalItems/jamesBond', function () {
+    return view('/generalItems/jamesBond');
+});
+
+Route::get('/generalItems/darthVader', function () {
+    return view('/generalItems/darthVader');
+});
+
+Route::get('/generalItems/hamers', function () {
+    return view('/generalItems/hamers');
+});
+
+Route::get('/generalItems/lukeSkywalker', function () {
+    return view('/generalItems/lukeSkywalker');
+});
+
+Route::get('/generalItems/streaming', function () {
+    return view('/generalItems/streaming');
+});
+
+Route::get('/songtexts/uprising', function () {
+    return view('/songtexts/uprising');
 });

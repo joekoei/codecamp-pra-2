@@ -10,7 +10,7 @@
     </div>
 @endsection
 @section('content')
-<div class="backgroundcolorGreen">
+<body class="green">
     <div class="container">
             <div class="dalton">
                 <h1>Dalton</h1>

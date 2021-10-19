@@ -5,7 +5,25 @@
     padding: 0;
 }
 
+.blue{
+    background-color: blue;
+}
 
+.green{
+    background-color: green;
+}
+
+.orange{
+    background-color:#b97d4b;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
 /*--------------------- Navbar CSS ---------------------*/
 
 .navbar {
@@ -97,14 +115,10 @@ a {
 }
 
 .songtext h1{
+    margin-top: 20px;
     font-family: 'LatoMedium', sans-serif;
     color: white;
     margin-bottom: 20px;
-}
-
-.backgroundBlue{
-    background-color: blue;
-    height: 100%;
 }
 
 .bohemianRhapsody{
@@ -114,14 +128,8 @@ a {
 
 /* plugInBaby */
 
-.backgroundOrange{
-    background-color:  #b97d4b;
-    height: 100%;
-}
-
 .plugInBaby{
     padding-top: 20px;
-    padding-bottom: 323px;
 }
 
 /* boeken */
@@ -157,16 +165,47 @@ a {
     margin-top: 20px;
 }
 
+.dalton h3{
+    font-family: 'LatoMedium', sans-serif;
+    margin-top: 20px;
+}
+
 .dalton p{
     font-family: 'LatoMedium', sans-serif;
     margin-top: 20px;
 }
 
-.backgroundcolorGreen{
-    background-color:#317f43;
-    height: 100%;
+/* general */
+
+.general{
+    color: black;
 }
 
-.daltonLastP{
-    padding-bottom: 477px;
+.general h1{
+    font-family: 'LatoMedium', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.general h2{
+    font-family: 'LatoMedium', sans-serif;
+    margin-top: 20px;
+}
+
+.general h3{
+    font-family: 'LatoMedium', sans-serif;
+    margin-top: 20px;
+}
+
+.general p{
+    font-family: 'LatoMedium', sans-serif;
+    margin-top: 20px;
+}
+
+
+/* streaming */
+
+.streaming a{
+    color:black;
+    font-family: 'LatoMedium', sans-serif;
 }

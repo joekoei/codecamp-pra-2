@@ -10,10 +10,9 @@
     </div>
 @endsection
 @section('content')
-<div class="backgroundOrange">
+<body class="orange">
     <div class="container">
         <div class="songtext">
-            <div class="uprisingMyBaby">
                 <h1>Uprising My Baby Lyric</h1>
                 <p>
                     Allow me in your tub<br>
@@ -51,10 +50,9 @@
                     <br>
                     Uprising, uprising<br>
                 </p>
-            </div>
         </div>
     </div>
-</div>
+</body>
 @endsection
 
 @section('footer')
