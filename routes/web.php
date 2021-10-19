@@ -21,8 +21,8 @@ Route::get('/songtexts/bohemianRhapsody', function () {
     return view('/songtexts/bohemianRhapsody');
 });
 
-Route::get('/songtexts/PlugInBaby', function () {
-    return view('/songtexts/PlugInBaby');
+Route::get('/songtexts/plugInBaby', function () {
+    return view('/songtexts/plugInBaby');
 });
 
 Route::get('/generalItems/books', function () {

@@ -1,12 +1,40 @@
 @extends('layout')
 
 @section('nav')
-    <div class="navbar" id="home">
-        <img class="navbar-img" src="{{asset("img/logo.png")}}" alt="logo" width="240px">
-        <a id="sec-1" href="#">Home</a>
-        <a id="sec-2" href="#">Songteksten</a>
-        <a id="sec-3" href="#">Gereedschappen</a>
-        <a id="sec-4" href="#">Contacten</a>
+<div class="navbar">
+    <img class="navbar-img" src="{{asset("img/logo.png")}}" alt="logo" width="240px">
+    <a href="#contact">Contact</a>
+    <div class="subnav">
+        <button class="subnavbtn">Overig <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+        <a href="../generalItems/dalton">Dalton</a>
+        <a href="../generalItems/darthVader">Darth vader</a>
+        <a href="../generalItems/lukeSkywalker">Luke Skywalker</a>
+        <a href="../generalItems/jamesBond">James Bond</a>
+        <a href="../generalItems/streaming">Streaming Diensten</a>
+        </div>
+    </div>
+    <div class="subnav">
+        <button class="subnavbtn">Gereedschappen <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+        <a href="..l/generalItems/chainsaw">Kettingzaag</a>
+        <a href="../generalItems/hamers">Hamers</a>
+        <a href="../generalItems/dalton">Cirkelzaag</a>
+        </div>
+    </div>
+    <div class="subnav">
+        <button class="subnavbtn">songteksten <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+        <a href="bohemianRhapsody">Bohemian Rhapsody</a>
+        <a href="killerQueen">Killer Queen</a>
+        <a href="weAreTheChampions">We are the champions</a>
+        <a href="ironMaiden">Iron Maiden</a>
+        <a href="plugInBaby">Plug in Baby</a>
+        <a href="uprising">Uprising</a>
+        <a href="uprisingMyBaby">Uprising my baby</a>
+        </div>
+    </div>
+    <a href="#home">Home</a>
     </div>
 @endsection
 @section('content')
