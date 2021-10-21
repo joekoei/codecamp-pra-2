@@ -41,7 +41,7 @@
     </div>
 @endsection
 @section('content')
-<body class="orange">
+<body class="red">
     <div class="container">
         <div class="songtext">
             <div class="plugInBaby">
