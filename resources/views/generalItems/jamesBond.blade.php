@@ -20,7 +20,7 @@
         </div>
     </div>
     <div class="subnav">
-        <button class="subnavbtn">songteksten <i class="fa fa-caret-down"></i></button>
+        <button class="subnavbtn">Songteksten <i class="fa fa-caret-down"></i></button>
         <div class="subnav-content">
         <a href="../songtexts/bohemianRhapsody">Bohemian Rhapsody</a>
         <a href="../songtexts/killerQueen">Killer Queen</a>
