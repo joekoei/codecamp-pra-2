@@ -45,25 +45,26 @@
 
                 <h2>Wat is een Cirkelzaag</h2>
                 <p>
-                    Een kettingzaag (ook motorzaag, motorkettingzaag of boomzaag genoemd) is een draagbare machine om mee te zagen. De belangrijkste functie is hout zagen.
+                (of radiaalzaag) is een zaag met een blad in de vorm van een stalen schijf, die met een motor tot een zeer hoog toerental wordt aangedreven. De schijf kan in een zaagtafel zijn gemonteerd waarover het te zagen materiaal wordt aangevoerd, of ingebouwd in een constructie samen met een elektromotor tot draagbare handcirkelzaag. Deze heeft een minder krachtige motor en kan ook dunner materiaal zagen.
                 </p>
                 <h2>verschillendeTypen</h2>
+                    <h3>Cirkelzaag voor non-ferromaterialen</h3>
                     <p>
-                        Er zijn verschillende typen aandrijving voor kettingzagen: pneumatisch, hydraulisch, elektrisch en door middel van een verbrandingsmotor (vaak ook motorkettingzaag genoemd). De elektrische kettingzaag en de motorkettingzaag zijn het meest gangbaar.
-                    </p>
-                    <h3>Elektrische Kettingzaag</h3>
-                    <p>
-                        Elektrische kettingzagen zijn met name bedoeld voor particulier gebruik. Ze zijn milieuvriendelijker en maken doorgaans minder lawaai dan kettingzagen op benzine. Ze zijn praktischer in gebruik doordat ze lichter zijn. Elektrische kettingzagen zijn vaak goedkoper in aanschaf. Nadeel is het snoer bij sommige elektrische kettingzagen waardoor de actieradius beperkt is, maar draadloze elektrische kettingzagen bestaan ook. Deze werken op een accu.
-                    </p>
-                    <h3>Kettingzaag met brandstofmotor</h3>
-                    <p>
-                        Benzinekettingzagen hebben bijna zonder uitzondering een tweetaktmotor. Benzine-aangedreven kettingzagen hebben het voordeel dat ze een grotere mobiliteit hebben en krachtiger zijn dan elektrische kettingzagen.
+                        Een cirkelzaag voor non-ferromaterialen wordt meestal gebruikt om hout mee te zagen. Op de tanden van de zaag wordt een stukje snelstaal gesoldeerd, waardoor de slijtage sterk afneemt. De belangrijkste veiligheidsvoorzieningen zijn het spouwmes en de kap. Het spouwmes zorgt ervoor dat de zaagsnede open gehouden wordt en voorkomt daardoor terugslag van het werkstuk. Het is gemonteerd achter het zaagblad, dus daar waar de tanden van de zaag omhoog gaan. De voorzijde, waar de tanden van de zaag naar beneden gaan, is waar het te zagen hout aangevoerd wordt.
 
-                        Er zijn verschillende typen benzine-kettingzaag verkrijgbaar:
+                        Een paneelzaag is een tafelcirkelzaag, zoals op de afbeelding, waarvan de geleiding zowel in de breedte als in de lengte enkele meters groot is, om grote werkstukken te kunnen zagen. Hiervoor bestaat ook de formaatzaag. In een formaatzaag staat het te zagen paneel rechtop in een frame, aan dit frame is een geleiding gemonteerd waarlangs een handcirkelzaag over het paneel beweegt. Dit type wordt veel gebruikt in bouwmarkten.
 
-                        Gewone motorkettingzaag = variërend van 30 cc tot 121 cc.
-                        Tophandle = licht type kettingzaag. Hoewel deze machines bediend kunnen worden met één hand, is dit verboden. Wordt vooral gebruikt in de fruitteelt en de boomverzorging.
-                        motorstokzaag = kettingzaag op een stok om takken op hoogte door te zagen.
+                        Het woordgebruik is niet eenduidig, de benamingen paneelzaag en formaatzaag worden soms als synoniemen gebruikt.
+                    </p>
+                    <h3>Metaalcirkelzaag</h3>
+                    <p>
+                        Bij cirkelzagen horen ook machines die metalen met lage toerentallen kunnen doorzagen. Vaak wordt het zaagblad dan hydraulisch door het werkstuk gedrukt. Hefboombediening komt ook vaak voor. 
+                        Deze zagen hebben een hardstalen blad, dat tijdens het zagen gekoeld wordt met een koelmiddel. Dit koelmiddel stroomt langs het zaagblad, wordt opgevangen en vervolgens gezeefd en hergebruikt. Een metaalafkortmachine kan ook met een doorslijpschijf werken.
+                    </p>
+                    <h3>Steencirkelzaag</h3>
+                    <p>
+                    Voor het zagen van steen, beton en asfalt wordt gebruikgemaakt van een diamantcirkelzaag. Het zaagblad is voorzien van diamantslijpsel. Tijdens het zagen wordt veel water op de cirkelzaag gesproeid om verhitting en overmatige slijtage tegen te gaan. 
+                    Diamantcirkelzaagmachines worden vaak pneumatisch aangedreven via een compressor.
                     </p>
             </div>
     </div>
