@@ -80,3 +80,7 @@ Route::get('/generalItems/streaming', function () {
 Route::get('/songtexts/uprising', function () {
     return view('/songtexts/uprising');
 });
+
+Route::get('/generalItems/circularSaw', function () {
+    return view('/generalItems/circularSaw');
+});

@@ -19,7 +19,7 @@
         <div class="subnav-content">
         <a href="..l/generalItems/chainsaw">Kettingzaag</a>
         <a href="../generalItems/hamers">Hamers</a>
-        <a href="../generalItems/dalton">Cirkelzaag</a>
+        <a href="../generalItems/circularSaw">Cirkelzaag</a>
         </div>
     </div>
     <div class="subnav">

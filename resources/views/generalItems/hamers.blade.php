@@ -19,7 +19,7 @@
         <div class="subnav-content">
         <a href="chainsaw">Kettingzaag</a>
         <a href="hamers">Hamers</a>
-        <a href="dalton">Cirkelzaag</a>
+        <a href="circularSaw">Cirkelzaag</a>
         </div>
     </div>
     <div class="subnav">
@@ -34,15 +34,15 @@
         <a href="../songtexts/uprisingMyBaby">Uprising my baby</a>
         </div>
     </div>
-    </div>
     <a href="#home">Home</a>
     </div>
+</div>
 @endsection
 @section('content')
 <body>
     <div class="container">
             <div class="general">
-                <h1>Kettingzaag</h1>
+                <h1>Hamer</h1>
 
                 <h2>Wat is een hamer</h2>
                 <p>

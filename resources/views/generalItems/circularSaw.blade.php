@@ -34,28 +34,36 @@
         <a href="../songtexts/uprisingMyBaby">Uprising my baby</a>
         </div>
     </div>
-    </div>
     <a href="#home">Home</a>
-    </div>
+</div>
 @endsection
 @section('content')
-<body class="green">
+<body>
     <div class="container">
             <div class="general">
-                <h1>Luke Skywalker</h1>
+                <h1>Cirkelzaag</h1>
 
-                <h2>Origineel</h2>
+                <h2>Wat is een Cirkelzaag</h2>
                 <p>
-                    Luke Skywalker is een personage uit de Star Warssaga, gespeeld door acteur Mark Hamill. Luke is de tweelingbroer van prinses Leia. Hun ouders zijn Padmé Amidala en Anakin Skywalker. Skywalker werd opgevoed door zijn oom Owen Lars en tante Beru Whitesun Lars.
+                    Een kettingzaag (ook motorzaag, motorkettingzaag of boomzaag genoemd) is een draagbare machine om mee te zagen. De belangrijkste functie is hout zagen.
                 </p>
-                <h2>Expanded universe</h2>
+                <h2>verschillendeTypen</h2>
                     <p>
-                        Luke speelt een grote rol in het Star Wars Expanded Universe. Hierin is het leven van Luke Skywalker zeer uitgebreid (ook over de periodes door de films worden overlapt, maar niet worden getoond). Het is bijvoorbeeld Luke die de locatie op Hoth vindt, waar de rebellen zich hebben gehergroepeerd in Episode V. Tevens wordt hij tussentijds verliefd op Shira Brie, die hij kort daarna per ongeluk zou doden, tijdens een gevecht waarbij hij wederom moest vertrouwen op zijn kracht als Jedi. Maar later zou blijken dat Brie een geheim agente van het Keizerrijk was.
-                        Na de slag op Endor gaat zijn verhaal verder. Zo zou Luke na de films een zeer gerespecteerd Jedi-meester worden en vele generaties Padawan opleiden om de eeuwenoude traditie van de Jedi opnieuw te doen opleven. Tevens ontmoet hij Mara Jade, die in eerste instantie erop uit is om hem te doden, maar later krijgen ze gevoelens voor elkaar en trouwen ze.
+                        Er zijn verschillende typen aandrijving voor kettingzagen: pneumatisch, hydraulisch, elektrisch en door middel van een verbrandingsmotor (vaak ook motorkettingzaag genoemd). De elektrische kettingzaag en de motorkettingzaag zijn het meest gangbaar.
                     </p>
-                    <h3>The mandelorian</h3>
+                    <h3>Elektrische Kettingzaag</h3>
                     <p>
-                        Luke Skywalker speelt een kleine rol in seizoen 2 aflevering 8 van The Mandalorian. Luke komt het Yoda-achtige kindje Grogu halen bij de reddingsactie op de Light Emperial Cruiser.
+                        Elektrische kettingzagen zijn met name bedoeld voor particulier gebruik. Ze zijn milieuvriendelijker en maken doorgaans minder lawaai dan kettingzagen op benzine. Ze zijn praktischer in gebruik doordat ze lichter zijn. Elektrische kettingzagen zijn vaak goedkoper in aanschaf. Nadeel is het snoer bij sommige elektrische kettingzagen waardoor de actieradius beperkt is, maar draadloze elektrische kettingzagen bestaan ook. Deze werken op een accu.
+                    </p>
+                    <h3>Kettingzaag met brandstofmotor</h3>
+                    <p>
+                        Benzinekettingzagen hebben bijna zonder uitzondering een tweetaktmotor. Benzine-aangedreven kettingzagen hebben het voordeel dat ze een grotere mobiliteit hebben en krachtiger zijn dan elektrische kettingzagen.
+
+                        Er zijn verschillende typen benzine-kettingzaag verkrijgbaar:
+
+                        Gewone motorkettingzaag = variërend van 30 cc tot 121 cc.
+                        Tophandle = licht type kettingzaag. Hoewel deze machines bediend kunnen worden met één hand, is dit verboden. Wordt vooral gebruikt in de fruitteelt en de boomverzorging.
+                        motorstokzaag = kettingzaag op een stok om takken op hoogte door te zagen.
                     </p>
             </div>
     </div>

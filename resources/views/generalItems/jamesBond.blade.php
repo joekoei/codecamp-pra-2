@@ -16,7 +16,7 @@
         <div class="subnav-content">
         <a href="chainsaw">Kettingzaag</a>
         <a href="hamers">Hamers</a>
-        <a href="dalton">Cirkelzaag</a>
+        <a href="circularSaw">Cirkelzaag</a>
         </div>
     </div>
     <div class="subnav">
