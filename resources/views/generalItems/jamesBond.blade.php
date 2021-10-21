@@ -1,7 +1,10 @@
 @extends('layout')
 
 @section('nav')
-<div class="subnav">
+<div class="navbar">
+    <img class="navbar-img" src="{{asset("img/logo.png")}}" alt="logo" width="240px">
+    <a href="#contact">Contact</a>
+    <div class="subnav">
         <button class="subnavbtn">Overig <i class="fa fa-caret-down"></i></button>
         <div class="subnav-content">
         <a href="dalton">Timothy Dalton</a>
@@ -30,7 +33,6 @@
         <a href="../songtexts/uprising">Uprising</a>
         <a href="../songtexts/uprisingMyBaby">Uprising my baby</a>
         </div>
-    </div>
     </div>
     <a href="/">Home</a>
     </div>
