@@ -51,21 +51,39 @@
 
 @endsection
 @section('content')
-
+<div class="container">
+    <div class="content">
+        <img src="{{asset("img/logo.png")}}" alt="logo">
+        <ul class="ulInfo">
+            <div class="plaats">
+                <li>Plaats:</li>
+                <li>Breda</li>
+            </div>
+            <div class="telefoon">
+                <li>Telefoon:</li>
+                <li>0612345678</li>
+            </div>
+            <div class="straat">
+                <li>Straat</li>
+                <li>Rondweg 78</li>
+            </div>
+        </ul>
+    </div>
+</div>
     <div class="time">
 
     </div>
 @endsection
 
 @section('footer')
-    <div class="footer">
+    <div class="footer" id="homepage">
         <div class="footer-text">
             <p>&copy; CodeCamp | Made by DevByte</p>
         </div>
     </div>
 
 @endsection
-@section('script')
+<!-- @section('script')
     <script>
         const updateTime = function(){
             $.ajax({url: "time.php", success: function(response){
@@ -76,4 +94,4 @@
 
         updateTime();
     </script>
-@endsection
+@endsection -->
