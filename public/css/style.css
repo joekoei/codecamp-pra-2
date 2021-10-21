@@ -6,11 +6,14 @@
 }
 
 .blue{
-    background-color: blue;
+    background-color: #4682b4;
 }
 
 .green{
-    background-color: green;
+    background-color: #317f43;
+}
+.greenSpecial{
+    background-color: #29a345;
 }
 
 .orange{
@@ -18,7 +21,7 @@
 }
 
 .red{
-    background-color: red;
+    background-color: #cc0000;
 }
 
 .yellow{
@@ -58,8 +61,12 @@ a {
     overflow: hidden;
     background-color: #317f43;
     font-family: 'LatoMedium', sans-serif;
+    border-bottom: 2px solid black;
   }
 
+  .logonav{
+      display: inline;
+  }
   /* Navigation links */
   .navbar a {
     float: right;
@@ -151,7 +158,7 @@ a {
 /*--------------------- Footer CSS ---------------------*/
 
 .footer {
-
+    border-top: 2px solid black;
     background-color: #317f43;
     text-align: center;
 }
@@ -286,6 +293,7 @@ a {
     font-family: 'LatoMedium', sans-serif;
 }
 
+<<<<<<< HEAD
 /* index */
 
 .container{
@@ -335,4 +343,12 @@ a {
 
 #homepage{
     margin-top: 90px;
+=======
+/* Uprising both pages*/
+.containerUprising{
+    background-color: #317f43;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+>>>>>>> 844cf45f6183ee22fedfd6319d68939d9ca18dcd
 }

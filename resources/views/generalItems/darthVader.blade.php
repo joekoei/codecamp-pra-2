@@ -37,9 +37,8 @@
         <a href="../songtexts/uprisingMyBaby">Uprising my baby</a>
         </div>
     </div>
-    </div>
     <a href="/">Home</a>
-    </div>
+</div>
 @endsection
 @section('content')
 <body class="yellow">
