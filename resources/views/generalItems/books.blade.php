@@ -7,7 +7,7 @@
     <div class="subnav">
         <button class="subnavbtn">Overig <i class="fa fa-caret-down"></i></button>
         <div class="subnav-content">
-        <a href="dalton">Dalton</a>
+        <a href="dalton">Timothy Dalton</a>
         <a href="darthVader">Darth vader</a>
         <a href="lukeSkywalker">Luke Skywalker</a>
         <a href="jamesBond">James Bond</a>
