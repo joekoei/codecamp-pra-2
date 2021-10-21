@@ -41,9 +41,10 @@
     </div>
 @endsection
 @section('content')
-<body class="orange">
+<body class="greenSpecial">
     <div class="container">
-        <div class="songtext">
+        <div class="containerUprising">
+            <div class="songtext">
                 <h1>Uprising My Baby Lyric</h1>
                 <p>
                     Allow me in your tub<br>
@@ -81,6 +82,7 @@
                     <br>
                     Uprising, uprising<br>
                 </p>
+            </div>
         </div>
     </div>
 </body>
