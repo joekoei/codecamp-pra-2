@@ -5,7 +5,7 @@
     <img class="navbar-img" src="{{asset("img/logo.png")}}" alt="logo" width="240px">
     <a href="#contact">Contact</a>
     <div class="subnav">
-        <a href="books">Books</a>
+        <a href="../generalItems/books">Books</a>
     </div>
     <div class="subnav">
         <button class="subnavbtn">Overig <i class="fa fa-caret-down"></i></button>
