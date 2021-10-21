@@ -35,7 +35,7 @@
         </div>
     </div>
     </div>
-    <a href="#home">Home</a>
+    <a href="/">Home</a>
     </div>
 @endsection
 @section('content')
