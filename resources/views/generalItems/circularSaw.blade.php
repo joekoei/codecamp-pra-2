@@ -23,7 +23,7 @@
         </div>
     </div>
     <div class="subnav">
-        <button class="subnavbtn">songteksten <i class="fa fa-caret-down"></i></button>
+        <button class="subnavbtn">Songteksten <i class="fa fa-caret-down"></i></button>
         <div class="subnav-content">
         <a href="../songtexts/bohemianRhapsody">Bohemian Rhapsody</a>
         <a href="../songtexts/killerQueen">Killer Queen</a>
@@ -50,22 +50,9 @@
                 <h2>verschillendeTypen</h2>
                     <h3>Cirkelzaag voor non-ferromaterialen</h3>
                     <p>
-                        Een cirkelzaag voor non-ferromaterialen wordt meestal gebruikt om hout mee te zagen. Op de tanden van de zaag wordt een stukje snelstaal gesoldeerd, waardoor de slijtage sterk afneemt. De belangrijkste veiligheidsvoorzieningen zijn het spouwmes en de kap. Het spouwmes zorgt ervoor dat de zaagsnede open gehouden wordt en voorkomt daardoor terugslag van het werkstuk. Het is gemonteerd achter het zaagblad, dus daar waar de tanden van de zaag omhoog gaan. De voorzijde, waar de tanden van de zaag naar beneden gaan, is waar het te zagen hout aangevoerd wordt.
+                        Een cirkelzaag voor non-ferromaterialen wordt meestal gebruikt om hout mee te zagen. Op de tanden van de zaag wordt een stukje snelstaal gesoldeerd, waardoor de slijtage sterk afneemt. De belangrijkste veiligheidsvoorzieningen zijn het spouwmes en de kap.
+                    </p>
 
-                        Een paneelzaag is een tafelcirkelzaag, zoals op de afbeelding, waarvan de geleiding zowel in de breedte als in de lengte enkele meters groot is, om grote werkstukken te kunnen zagen. Hiervoor bestaat ook de formaatzaag. In een formaatzaag staat het te zagen paneel rechtop in een frame, aan dit frame is een geleiding gemonteerd waarlangs een handcirkelzaag over het paneel beweegt. Dit type wordt veel gebruikt in bouwmarkten.
-
-                        Het woordgebruik is niet eenduidig, de benamingen paneelzaag en formaatzaag worden soms als synoniemen gebruikt.
-                    </p>
-                    <h3>Metaalcirkelzaag</h3>
-                    <p>
-                        Bij cirkelzagen horen ook machines die metalen met lage toerentallen kunnen doorzagen. Vaak wordt het zaagblad dan hydraulisch door het werkstuk gedrukt. Hefboombediening komt ook vaak voor. 
-                        Deze zagen hebben een hardstalen blad, dat tijdens het zagen gekoeld wordt met een koelmiddel. Dit koelmiddel stroomt langs het zaagblad, wordt opgevangen en vervolgens gezeefd en hergebruikt. Een metaalafkortmachine kan ook met een doorslijpschijf werken.
-                    </p>
-                    <h3>Steencirkelzaag</h3>
-                    <p>
-                    Voor het zagen van steen, beton en asfalt wordt gebruikgemaakt van een diamantcirkelzaag. Het zaagblad is voorzien van diamantslijpsel. Tijdens het zagen wordt veel water op de cirkelzaag gesproeid om verhitting en overmatige slijtage tegen te gaan. 
-                    Diamantcirkelzaagmachines worden vaak pneumatisch aangedreven via een compressor.
-                    </p>
             </div>
     </div>
 </body>
