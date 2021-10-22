@@ -13,7 +13,7 @@
     background-color: #317f43;
 }
 .greenSpecial{
-    background-color: #29a345;
+    background-color: #b97d4b
 }
 
 .orange{
@@ -21,7 +21,7 @@
 }
 
 .red{
-    background-color: #cc0000;
+    background-color: #b97d4b;
 }
 
 .yellow{
@@ -316,7 +316,7 @@ a {
 
 .plaats li{
     padding-right: 35px;
-    list-style-type:none; 
+    list-style-type:none;
 }
 .plaats{
     display: flex;
@@ -325,7 +325,7 @@ a {
 
 .telefoon li{
     padding-right: 18px;
-    list-style-type:none; 
+    list-style-type:none;
 }
 .telefoon{
     display: flex;
@@ -334,7 +334,7 @@ a {
 
 .straat li{
     padding-right: 40px;
-    list-style-type:none; 
+    list-style-type:none;
 }
 .straat{
     display: flex;
