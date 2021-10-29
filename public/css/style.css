@@ -190,6 +190,10 @@ a {
     font-size: 20px;
 }
 
+/* #mainpageIMG{
+    display: flex;
+    justify-content: center;
+} */
 /* bohemianRhapsody */
 
 .songtext p{
@@ -293,13 +297,13 @@ a {
     font-family: 'LatoMedium', sans-serif;
 }
 
-<<<<<<< HEAD
 /* index */
 
 .container{
     font-family: 'LatoMedium', sans-serif;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .content{
@@ -343,12 +347,4 @@ a {
 
 #homepage{
     margin-top: 90px;
-=======
-/* Uprising both pages*/
-.containerUprising{
-    background-color: #317f43;
-    border-radius: 25px;
-    padding-left: 20px;
-    padding-bottom: 5px;
->>>>>>> 844cf45f6183ee22fedfd6319d68939d9ca18dcd
 }
