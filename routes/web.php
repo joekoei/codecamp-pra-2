@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\SongtextController;
+use App\Http\Controllers\ToolController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,70 +19,36 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/songtexts/bohemianRhapsody', function () {
-    return view('/songtexts/bohemianRhapsody');
-});
 
-Route::get('/songtexts/plugInBaby', function () {
-    return view('/songtexts/plugInBaby');
-});
+Route::get('/songtexts/bohemianRhapsody',[SongtextController::class,'bhr'])->name('song.br');
 
-Route::get('/generalItems/books', function () {
-    return view('/generalItems/books');
-});
+Route::get('/songtexts/plugInBaby',[SongtextController::class,'pib'])->name('song.pib');
 
-Route::get('/generalItems/dalton', function () {
-    return view('/generalItems/dalton');
-});
+Route::get('/songtexts/weAreTheChampions',[SongtextController::class,'watc'])->name('song.watc');
 
-Route::get('/generalItems/dalton', function () {
-    return view('/generalItems/dalton');
-});
+Route::get('/songtexts/uprisingMyBaby',[SongtextController::class,'umb'])->name('song.umb');
 
-Route::get('/songtexts/weAreTheChampions', function () {
-    return view('/songtexts/weAreTheChampions');
-});
+Route::get('/songtexts/killerQueen', [SongtextController::class,'kq'])->name('song.kq');
 
-Route::get('/songtexts/uprisingMyBaby', function () {
-    return view('/songtexts/uprisingMyBaby');
-});
+Route::get('/songtexts/ironMaiden',[SongtextController::class,'im'])->name('song.im');
 
-Route::get('/songtexts/killerQueen', function () {
-    return view('/songtexts/killerQueen');
-});
 
-Route::get('/songtexts/ironMaiden', function () {
-    return view('/songtexts/ironMaiden');
-});
+Route::get('/songtexts/uprising', [SongtextController::class,'u'])->name('song.u');
 
-Route::get('/generalItems/chainsaw', function () {
-    return view('/generalItems/chainsaw');
-});
 
-Route::get('/generalItems/jamesBond', function () {
-    return view('/generalItems/jamesBond');
-});
+Route::get('/generalItems/books', [ToolController::class,'book'])->name('items.book');
 
-Route::get('/generalItems/darthVader', function () {
-    return view('/generalItems/darthVader');
-});
+Route::get('/generalItems/dalton', [ToolController::class,'dalton'])->name('items.dalton');
 
-Route::get('/generalItems/hamers', function () {
-    return view('/generalItems/hamers');
-});
+Route::get('/generalItems/chainsaw', [ToolController::class,'chainsaw'])->name('items.chain');
 
-Route::get('/generalItems/lukeSkywalker', function () {
-    return view('/generalItems/lukeSkywalker');
-});
+Route::get('/generalItems/jamesBond',[ToolController::class,'jamesbond'])->name('items.james');
 
-Route::get('/generalItems/streaming', function () {
-    return view('/generalItems/streaming');
-});
+Route::get('/generalItems/darthVader',[ToolController::class,'darthVader'])->name('items.dv');
 
-Route::get('/songtexts/uprising', function () {
-    return view('/songtexts/uprising');
-});
+Route::get('/generalItems/hamers',[ToolController::class,'hamers'])->name('items.hamers');
 
-Route::get('/generalItems/circularSaw', function () {
-    return view('/generalItems/circularSaw');
-});
+Route::get('/generalItems/lukeSkywalker',[ToolController::class,'luke'])->name('items.luke');
+
+Route::get('/generalItems/streaming', [ToolController::class,'streaming'])->name('itemms.streaming');
+Route::get('/generalItems/circularSaw', [ToolController::class,'circularSaw'])->name('items.circular');
