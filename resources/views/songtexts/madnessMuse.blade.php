@@ -5,58 +5,44 @@
         <div class="container">
             <div class="songtext">
                 <div class="madnessMuse">
-                    <h1>Killer Queen Lyric</h1>
+                    <h1>Madness Lyric</h1>
                     <p>
-                        She keeps her Moet et Chandon<br>
-                        In her pretty cabinet<br>
-                        "Let them eat cake", she says<br>
-                        Just like Marie Antoinette<br>
-                        A built-in remedy<br>
-                        For Khrushchev and Kennedy<br>
-                        At anytime an invitation<br>
-                        You can't decline<br>
-                        Caviar and cigarettes<br>
-                        Well versed in etiquette<br>
-                        Extraordinarily nice<br>
-                        She's a Killer Queen<br>
-                        Gunpowder, gelatine<br>
-                        Dynamite with a laser beam<br>
-                        Guaranteed to blow your mind<br>
-                        Anytime<br>
-                        Recommended at the price<br>
-                        Insatiable an appetite<br>
-                        Wanna try?<br>
-                        To avoid complications<br>
-                        She never kept the same address<br>
-                        In conversation<br>
-                        She spoke just like a baroness<br>
-                        Met a man from China<br>
-                        Went down to Geisha Minah<br>
-                        Then again incidentally<br>
-                        If you're that way inclined<br>
-                        Perfume came naturally from Paris (naturally)<br>
-                        For cars she couldn't care less<br>
-                        Fastidious and precise<br>
-                        She's a Killer Queen<br>
-                        Gunpowder, gelatinev
-                        Dynamite with a laser beam<br>
-                        Guaranteed to blow your mind<br>
-                        Anytime<br>
-                        Drop of a hat she's as willing as<br>
-                        Playful as a pussy cat<br>
-                        Then momentarily out of action<br>
-                        Temporarily out of gas<br>
-                        To absolutely drive you wild, wildv
-                        She's all out to get you<br>
-                        She's a Killer Queen<br>
-                        Gunpowder, gelatine<br>
-                        Dynamite with a laser beam<br>
-                        Guaranteed to blow your mind<br>
-                        Anytime<br>
-                        Recommended at the price<br>
-                        Insatiable an appetite<br>
-                        Wanna try?<br>
-                        You wanna try<br>
+                        I, I can't get these memories out of my mind<br>
+                        And some kind of madness has started to evolve<br>
+                        I, I tried so hard to let you go<br>
+                        But some kind of madness is swallowing me whole, yeah<br>
+                        <br>
+                        I have finally seen the light<br>
+                        And I have finally realized<br>
+                        What you mean<br>
+                        Oh oh oh<br>
+                        <br>
+                        And now, I need to know is this real love<br>
+                        Or is it just madness keeping us afloat?<br>
+                        And when I look back at all the crazy fights we had<br>
+                        Like some kind of madness<br>
+                        Was taking control<br>
+                        Yeah<br>
+                        <br>
+                        And now I have finally seen the light<br>
+                        And I have finally realized<br>
+                        What you need<br>
+                        Mm<br>
+                        <br>
+                        And now I have finally seen the end (Finally seen the end)<br>
+                        And I'm not expecting you to care (Expecting you to care)<br>
+                        But I have finally seen the light (Finally seen the light)<br>
+                        I have finally realized (Realized)<br>
+                        I need to love<br>
+                        I need to love<br>
+                        <br>
+                        Come to me,<br>
+                        Trust in your dream<br>
+                        Come on and rescue me<br>
+                        Yes I have known, I can be wrong<br>
+                        Maybe I'm too headstrong<br>
+                        Our love is<br>
+                        Madness<br>
                     </p>
                 </div>
             </div>
