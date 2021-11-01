@@ -32,8 +32,9 @@ Route::get('/songtexts/killerQueen', [SongtextController::class,'kq'])->name('so
 
 Route::get('/songtexts/ironMaiden',[SongtextController::class,'im'])->name('song.im');
 
-
 Route::get('/songtexts/uprising', [SongtextController::class,'u'])->name('song.u');
+
+Route::get('/songtexts/madnessMuse', [SongtextController::class,'mm'])->name('song.mm');
 
 
 Route::get('/generalItems/books', [ToolController::class,'book'])->name('items.book');

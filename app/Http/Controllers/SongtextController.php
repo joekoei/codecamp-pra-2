@@ -33,4 +33,8 @@ class SongtextController extends Controller
     public function watc(){
         return view('songtexts.weAreTheChampions');
     }
+
+    public function mm(){
+        return view('songtexts.madnessMuse');
+    }
 }

@@ -53,6 +53,7 @@
             <a href="{{route('song.pib')}}">Plug in Baby</a>
             <a href="{{route('song.u')}}">Uprising</a>
             <a href="{{route('song.umb')}}">Uprising my baby</a>
+            <a href="{{route('song.mm')}}">Madness</a>
         </div>
     </div>
     <a href="/">Home</a>
