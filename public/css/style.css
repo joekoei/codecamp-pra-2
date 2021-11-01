@@ -169,13 +169,13 @@ a {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #3fa055;
+    background-color: #317f43;
     color: white;
     text-align: center;
+    border-top: 2px solid black;
   }
 
  .footer-text {
-
     font-family: 'LatoMedium', sans-serif;
     padding-top: 25px;
     padding-bottom: 25px;
