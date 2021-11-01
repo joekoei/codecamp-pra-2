@@ -28,31 +28,31 @@
     <div class="subnav">
         <button class="subnavbtn">Overig <i class="fa fa-caret-down"></i></button>
         <div class="subnav-content">
-            <a href="generalItems/dalton">Timothy Dalton</a>
-            <a href="generalItems/darthVader">Darth vader</a>
-            <a href="generalItems/lukeSkywalker">Luke Skywalker</a>
-            <a href="generalItems/jamesBond">James Bond</a>
-            <a href="generalItems/streaming">Streaming Diensten</a>
+            <a href="{{route('items.dalton')}}">Timothy Dalton</a>
+            <a href="{{route('items.dv')}}">Darth vader</a>
+            <a href="{{route('items.luke')}}">Luke Skywalker</a>
+            <a href="{{route('items.james')}}">James Bond</a>
+            <a href="{{route('itemms.streaming')}}">Streaming Diensten</a>
         </div>
     </div>
     <div class="subnav">
         <button class="subnavbtn">Gereedschappen <i class="fa fa-caret-down"></i></button>
         <div class="subnav-content">
-            <a href="generalItems/chainsaw">Kettingzaag</a>
-            <a href="generalItems/hamers">Hamers</a>
-            <a href="generalItems/circularSaw">Cirkelzaag</a>
+            <a href="{{route('items.chain')}}">Kettingzaag</a>
+            <a href="{{route('items.hamers')}}">Hamers</a>
+            <a href="{{route('items.circular')}}">Cirkelzaag</a>
         </div>
     </div>
     <div class="subnav">
         <button class="subnavbtn">Songteksten <i class="fa fa-caret-down"></i></button>
         <div class="subnav-content">
-            <a href="songtexts/bohemianRhapsody">Bohemian Rhapsody</a>
-            <a href="songtexts/killerQueen">Killer Queen</a>
-            <a href="songtexts/weAreTheChampions">We are the champions</a>
-            <a href="songtexts/ironMaiden">Iron Maiden</a>
-            <a href="songtexts/plugInBaby">Plug in Baby</a>
-            <a href="songtexts/uprising">Uprising</a>
-            <a href="songtexts/uprisingMyBaby">Uprising my baby</a>
+            <a href="{{route('song.br')}}">Bohemian Rhapsody</a>
+            <a href="{{route('song.kq')}}">Killer Queen</a>
+            <a href="{{route('song.watc')}}">We are the champions</a>
+            <a href="{{route('song.im')}}">Iron Maiden</a>
+            <a href="{{route('song.pib')}}">Plug in Baby</a>
+            <a href="{{route('song.u')}}">Uprising</a>
+            <a href="{{route('song.umb')}}">Uprising my baby</a>
         </div>
     </div>
     <a href="/">Home</a>
