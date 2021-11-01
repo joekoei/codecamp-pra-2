@@ -59,7 +59,10 @@
 </div>
 
 @yield('content')
-@yield('footer')
-@yield('script')
+<div class="footer" id="homepage">
+    <div class="footer-text">
+        <p>&copy; CodeCamp | Made by DevByte</p>
+    </div>
+</div>@yield('script')
 </body>
 </html>

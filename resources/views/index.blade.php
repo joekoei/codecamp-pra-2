@@ -36,14 +36,6 @@
     </div>
 @endsection
 
-@section('footer')
-    <div class="footer" id="homepage">
-        <div class="footer-text">
-            <p>&copy; CodeCamp | Made by DevByte</p>
-        </div>
-    </div>
-
-@endsection
 <!-- @section('script')
     <script>
         const updateTime = function(){
