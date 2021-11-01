@@ -23,7 +23,7 @@
     <img class="navbar-img" src="{{asset("img/logo.png")}}" alt="logo" width="240px">
     <a href="#contact">Contact</a>
     <div class="subnav">
-        <a href="generalItems/books">Books</a>
+        <a href="{{route('items.book')}}">Books</a>
     </div>
     <div class="subnav">
         <button class="subnavbtn">Overig <i class="fa fa-caret-down"></i></button>
@@ -45,7 +45,6 @@
     <div class="subnav">
         <button class="subnavbtn">Gereedschappen <i class="fa fa-caret-down"></i></button>
         <div class="subnav-content">
-            <a href="{{route('items.chain')}}">Kettingzaag</a>
             <a href="{{route('items.hamers')}}">Hamers</a>
             <a href="{{route('items.circular')}}">Cirkelzaag</a>
         </div>
@@ -56,7 +55,6 @@
             <a href="{{route('song.br')}}">Bohemian Rhapsody</a>
             <a href="{{route('song.kq')}}">Killer Queen</a>
             <a href="{{route('song.watc')}}">We are the champions</a>
-            <a href="{{route('song.im')}}">Iron Maiden</a>
             <a href="{{route('song.pib')}}">Plug in Baby</a>
             <a href="{{route('song.u')}}">Uprising</a>
             <a href="{{route('song.umb')}}">Uprising my baby</a>
@@ -71,6 +69,7 @@
     <div class="footer-text">
         <p>&copy; CodeCamp | Made by DevByte</p>
     </div>
-</div>@yield('script')
+</div>
+@yield('script')
 </body>
 </html>
