@@ -170,7 +170,7 @@ a {
     bottom: 0;
     width: 100%;
     background-color: #3fa055;
-    color: black;
+    color: white;
     text-align: center;
   }
 
@@ -179,7 +179,7 @@ a {
     font-family: 'LatoMedium', sans-serif;
     padding-top: 25px;
     padding-bottom: 25px;
-    color: black;
+    color: white;
     text-align: center;
 } 
 
