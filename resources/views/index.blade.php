@@ -14,21 +14,21 @@
 @section('content')
 <div class="container">
     <div class="content">
-        <img src="{{asset("img/logo.png")}}" alt="logo">
-        <ul class="ulInfo">
-            <div class="plaats">
-                <li>Plaats:</li>
-                <li>Breda</li>
+        <div class="homePageStyle">
+            <img src="{{asset("img/logo.png")}}" alt="logo">
+        </div>
+            <div class="tabelHomePage">
+                <table id="homePageTable">
+                    <tr>
+                        <th>Plaats:</th>
+                        <th>Adres:</th>
+                    </tr>
+                    <tr>
+                        <td>Den Bosch</td>
+                        <td>Koestraat 1</td>
+                    </tr>
+                </table>
             </div>
-            <div class="telefoon">
-                <li>Telefoon:</li>
-                <li>0612345678</li>
-            </div>
-            <div class="straat">
-                <li>Straat</li>
-                <li>Rondweg 78</li>
-            </div>
-        </ul>
     </div>
 </div>
     <div class="time">
