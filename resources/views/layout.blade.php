@@ -36,6 +36,13 @@
         </div>
     </div>
     <div class="subnav">
+        <button class="subnavbtn">Dranken <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+            <a href="{{route('song.br')}}">Warme Dranken</a>
+            <a href="{{route('song.kq')}}">Frisdrank</a>
+        </div>
+    </div>
+    <div class="subnav">
         <button class="subnavbtn">Gereedschappen <i class="fa fa-caret-down"></i></button>
         <div class="subnav-content">
             <a href="{{route('items.hamers')}}">Hamers</a>
