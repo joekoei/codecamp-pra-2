@@ -7,56 +7,54 @@
                 <div class="bohemianRhapsody">
                     <h1>Iron maiden Lyric</h1>
                     <div class="row">
-                        <div class="column" style="background-color:#aaa;">
-                            <h2>Column 1</h2>
+                        <div class="column">
                             <p>
                                 Won't you come into my room?
                                 I wanna show you all my wares
                                 I just want to see your blood
-                                I just want to stand and stare
+                                I just want to stand and stare<br><br>
                                 See the blood begin to flow
                                 As it falls upon the floor
                                 Iron Maiden can't be fought
-                                Iron Maiden can't be sought
+                                Iron Maiden can't be sought<br><br>
                                 Oh well, wherever,
                                 Wherever you are
                                 Iron Maiden's gonna get you
-                                No matter how far
+                                No matter how far<br><Br>
                                 See the blood flow
                                 Watching it shed up above my head
-                                Iron Maiden wants you for dead
+                                Iron Maiden wants you for dead<br><br>
                                 Won't you come into my room?
                                 I wanna show you all my wares
                                 I just want to see your blood
-                                I just want to stand and stare
+                                I just want to stand and stare<br><br>
                                 See the blood begin to flow
                                 As it falls upon the floor
                                 Iron Maiden can't be fought
                                 Iron Maiden can't be sought
                             </p>
                         </div>
-                        <div class="column" style="background-color:#bbb;">
-                            <h2>Column 2</h2>
+                        <div class="column">
                             <p>
                             Oh well, wherever
                             Wherever you are
                             Iron Maiden's gonna get you
-                            No matter how far
+                            No matter how far<br><br>
                             See the blood flow,
                             Watching it shed up above my head
-                            Iron Maiden wants you for dead
+                            Iron Maiden wants you for dead<br><br>
                             Won't you come into my room?
                             I wanna show you all my wares
                             I just want to see your blood
-                            I just want to stand and stare
+                            I just want to stand and stare<br><br>
                             See the blood begin to flow
                             As it falls upon the floor
                             Iron Maiden can't be fought
-                            Iron Maiden can't be sought
+                            Iron Maiden can't be sought<br><br>
                             Oh well, wherever,
                             Wherever you are
                             Iron Maiden's gonna get you,
-                            No matter how far
+                            No matter how far<br><br>
                             See the blood flow,
                             Watching it shed up above my head
                             Iron Maiden wants you for dead
