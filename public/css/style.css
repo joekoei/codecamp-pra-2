@@ -27,6 +27,18 @@
 .yellow{
     background-color: yellow;
 }
+
+.whiteText h1{
+    color: white;
+}
+
+.whiteText h2{
+    color: white;
+}
+
+.whiteText p{
+    color: white;
+}
 /*--------------------- Navbar CSS ---------------------*/
 
 /* .navbar OUDE {
@@ -300,7 +312,6 @@ a {
     margin-top: 20px;
 }
 
-
 /* streaming */
 
 .streaming a{
@@ -357,7 +368,7 @@ a {
 
   /* split */
   .row{
-    display: flex;
+    display: flex; 
   }
 
   .column{
