@@ -173,7 +173,7 @@ a {
     border-top: 2px solid black;
     background-color: #317f43;
     text-align: center;
-    
+
 } */
 
 .footer {
@@ -193,7 +193,7 @@ a {
     padding-bottom: 25px;
     color: white;
     text-align: center;
-} 
+}
 
 /* container */
 
@@ -233,7 +233,7 @@ a {
     padding-bottom:20px;
     text-align: justify;
     line-height:35px
-    
+
 }
 
 /* plugInBaby */
@@ -348,15 +348,15 @@ a {
     width: 300px;
     height: 25px;
   }
-  
+
   #homePageTable td, #homePageTable th {
     border: 1px solid #ddd;
     padding: 4px;
-    
+
   }
-  
+
   #homePageTable tr:nth-child(even){background-color: #f2f2f2;}
-  
+
   #homePageTable th {
     padding-top: 8px;
     padding-bottom: 8px;
@@ -368,7 +368,7 @@ a {
 
   /* split */
   .row{
-    display: flex; 
+    display: flex;
   }
 
   .column{
@@ -376,3 +376,10 @@ a {
       padding: 50px;
       margin-bottom: 20px;
   }
+
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+}
