@@ -318,7 +318,12 @@ a {
     color:black;
     font-family: 'LatoMedium', sans-serif;
 }
-
+#Roger-Moore-Foto{
+    position: absolute;
+    right: 500px;
+    top: 175px;
+    box-shadow: 2px 2px 3px 1px #888888;
+}
 /* index */
 
 .container{
