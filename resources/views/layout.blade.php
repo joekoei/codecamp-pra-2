@@ -32,7 +32,6 @@
             <a href="{{route('items.dv')}}">Darth vader</a>
             <a href="{{route('items.luke')}}">Luke Skywalker</a>
             <a href="{{route('items.james')}}">James Bond</a>
-            <a href="{{route('itemms.streaming')}}">Streaming Diensten</a>
         </div>
     </div>
     <div class="subnav">
