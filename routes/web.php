@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\SongtextController;
 use App\Http\Controllers\ToolController;
+use App\Http\Controllers\DrinksController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -52,4 +53,10 @@ Route::get('/generalItems/hamers',[ToolController::class,'hamers'])->name('items
 Route::get('/generalItems/lukeSkywalker',[ToolController::class,'luke'])->name('items.luke');
 
 Route::get('/generalItems/streaming', [ToolController::class,'streaming'])->name('itemms.streaming');
+
 Route::get('/generalItems/circularSaw', [ToolController::class,'circularSaw'])->name('items.circular');
+
+
+Route::get('/drinks/warmeDranken', [DrinksController::class,'wd'])->name('drinks.wd');
+
+Route::get('/drinks/frisdranken', [DrinksController::class,'f'])->name('drinks.f');
