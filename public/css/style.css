@@ -173,7 +173,7 @@ a {
     border-top: 2px solid black;
     background-color: #317f43;
     text-align: center;
-    
+
 } */
 
 .footer {
@@ -193,7 +193,7 @@ a {
     padding-bottom: 25px;
     color: white;
     text-align: center;
-} 
+}
 
 /* container */
 
@@ -233,7 +233,7 @@ a {
     padding-bottom:20px;
     text-align: justify;
     line-height:35px
-    
+
 }
 
 /* plugInBaby */
@@ -318,7 +318,12 @@ a {
     color:black;
     font-family: 'LatoMedium', sans-serif;
 }
-
+#Roger-Moore-Foto{
+    position: absolute;
+    right: 500px;
+    top: 175px;
+    box-shadow: 2px 2px 3px 1px #888888;
+}
 /* index */
 
 .container{
@@ -348,15 +353,15 @@ a {
     width: 300px;
     height: 25px;
   }
-  
+
   #homePageTable td, #homePageTable th {
     border: 1px solid #ddd;
     padding: 4px;
-    
+
   }
-  
+
   #homePageTable tr:nth-child(even){background-color: #f2f2f2;}
-  
+
   #homePageTable th {
     padding-top: 8px;
     padding-bottom: 8px;
@@ -368,7 +373,7 @@ a {
 
   /* split */
   .row{
-    display: flex; 
+    display: flex;
   }
 
   .column{
