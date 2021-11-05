@@ -5,6 +5,7 @@ namespace App\Http\Controllers\authable;
 use App\Http\Controllers\Controller;
 use App\Models\Book;
 use App\Models\User;
+use Illuminate\Http\Request;
 
 class AuthController extends Controller
 {
@@ -34,4 +35,20 @@ class AuthController extends Controller
     public function book(Book $book){
         return view('admin.edit.books')->with(compact('book'));
     }
+
+    public function editUser(Request $request){
+        $user = User::findOrFail($request->id);
+
+        $name = $request->name;
+        $email = $request->email;
+        $rol = $request->rol;
+
+        $user->name = $name;
+        $user->email = $email;
+        $user->rol = $rol;
+        $user->save();
+
+        return redirect()->route('admin.users');
+    }
+
 }
