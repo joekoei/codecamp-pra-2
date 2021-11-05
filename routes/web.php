@@ -1,8 +1,5 @@
 <?php
 
-use App\Http\Controllers\SongtextController;
-use App\Http\Controllers\ToolController;
-use App\Http\Controllers\DrinksController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,9 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('welcome');
 });
 
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
 
 Route::get('/songtexts/bohemianRhapsody',[SongtextController::class,'bhr'])->name('song.br');
 
@@ -63,6 +63,5 @@ Route::get('/drinks/warmeDranken', [DrinksController::class,'wd'])->name('drinks
 
 Route::get('/drinks/frisdranken', [DrinksController::class,'f'])->name('drinks.f');
 
-Auth::routes();
-
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+require __DIR__.'/auth.php';

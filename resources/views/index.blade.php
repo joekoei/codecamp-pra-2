@@ -28,11 +28,17 @@
     </div>
 <script>
     function myMap() {
+        const db = { lat: 51.697363, lng: 5.293600 };
         var mapProp= {
             center: new google.maps.LatLng(51.697363,5.293600),
             zoom: 16,
         };
         var map = new google.maps.Map(document.getElementById("map"),mapProp);
+
+        const marker = new google.maps.Marker({
+            position: db,
+            map: map,
+        });
     }
 </script>
 <script async
