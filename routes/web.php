@@ -35,6 +35,10 @@ Route::get('/dashboard/books', function (){
 })->middleware(['auth'])->name('admin.books');
 
 
+Route::get('/dashboard/books/{book}',function (Book $book){
+    return view('admin.books.edit')->with(compact('book'));
+})->middleware(['auth'])->name('admin.books.edit');
+
 Route::get('/songtexts/bohemianRhapsody',[SongtextController::class,'bhr'])->name('song.br');
 
 Route::get('/songtexts/plugInBaby',[SongtextController::class,'pib'])->name('song.pib');
