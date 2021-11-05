@@ -21,12 +21,17 @@ Route::get('/', function () {
 });
 
 Route::get('/dashboard', function () {
-    return view('dashboard');
+    return view('admin.dashboard');
 })->middleware(['auth'])->name('dashboard');
 
 Route::get('/dashboard/profile', function (){
-    return view('profile.blade.php');
+    return view('admin.profile');
 })->middleware(['auth'])->name('profile');
+
+Route::get('/dashboard/books', function (){
+    return view('admin.books');
+})->middleware(['auth'])->name('admin.books');
+
 
 Route::get('/songtexts/bohemianRhapsody',[SongtextController::class,'bhr'])->name('song.br');
 
