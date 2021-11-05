@@ -11,7 +11,11 @@
                     <H3>Koffie</H3>
                     <p>Koffie is een meestal warm genuttigde drank, die wordt bereid op basis van water en gedroogde en
                         gebrande pitten van de koffieplant (Coffea spp.) die vanwege hun vorm koffiebonen worden
-                        genoemd. Koffie bevat het stimulerende middel cafeïne.</p>
+                        genoemd. Koffie bevat het stimulerende middel cafeïne.
+                    </p>
+                    <div class="Button-Dranken">
+                        <a href="{{route('items.george')}}">George Clooney</a>
+                    </div>
                 </div>
                 <div class="latte">
                     <H3>Latte</H3>

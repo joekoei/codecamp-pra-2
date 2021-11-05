@@ -417,16 +417,17 @@ a {
 }
 
 /* Cola -> Roger Moore */
-.James-Bond-Cola {
+.Button-Dranken {
     border: 1px solid black;
     border-radius: 3px;
     padding: 5px;
     margin: 5px 15px 5px 0;
     background-color: #317f43;
-    width: 100px;
+    width: 125px;
 }
 
-.James-Bond-Cola a {
+.Button-Dranken a {
+    margin: 0 auto;
     text-decoration: none;
     color: white; 
 }

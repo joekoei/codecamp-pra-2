@@ -67,6 +67,9 @@ Route::get('/generalItems/screwDriver', [ToolController::class,'screwDriver'])->
 
 Route::get('/generalItems/handSaw', [ToolController::class,'handSaw'])->name('items.handSaw');
 
+Route::get('/generalItems/georgeClooney',[ToolController::class,'georgeClooney'])->name('items.george');
+
+
 Route::get('/drinks/warmeDranken', [DrinksController::class,'wd'])->name('drinks.wd');
 
 Route::get('/drinks/frisdranken', [DrinksController::class,'f'])->name('drinks.f');

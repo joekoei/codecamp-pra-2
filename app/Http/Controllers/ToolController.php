@@ -45,4 +45,7 @@ class ToolController extends Controller
         return view('generalItems.handSaw');
     }
 
+    public function georgeClooney(){
+        return view('generalItems.georgeClooney');
+    }
 }
