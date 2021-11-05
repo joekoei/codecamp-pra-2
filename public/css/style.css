@@ -323,7 +323,6 @@ a {
     font-family: 'LatoMedium', sans-serif;
     margin-top: 20px;
 }
-
 /* streaming */
 
 .streaming a{
@@ -333,6 +332,14 @@ a {
 #Roger-Moore-Foto{
     position: absolute;
     right: 500px;
+    top: 175px;
+    box-shadow: 2px 2px 3px 1px #888888;
+}
+
+#Luke-SkyWalker-foto {
+
+    position: absolute;
+    right: 200px;
     top: 175px;
     box-shadow: 2px 2px 3px 1px #888888;
 }
