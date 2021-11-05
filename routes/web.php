@@ -61,6 +61,4 @@ Route::get('/drinks/warmeDranken', [DrinksController::class,'wd'])->name('drinks
 
 Route::get('/drinks/frisdranken', [DrinksController::class,'f'])->name('drinks.f');
 
-Auth::routes();
-
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
