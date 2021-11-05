@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\DrinksController;
+use App\Http\Controllers\SongtextController;
+use App\Http\Controllers\ToolController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -63,5 +66,4 @@ Route::get('/drinks/warmeDranken', [DrinksController::class,'wd'])->name('drinks
 
 Route::get('/drinks/frisdranken', [DrinksController::class,'f'])->name('drinks.f');
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 require __DIR__.'/auth.php';
