@@ -28,6 +28,11 @@ Route::get('/dashboard/profile', function (){
     return view('admin.profile');
 })->middleware(['auth'])->name('profile');
 
+Route::get('/dashboard/books', function (){
+    return view('admin.books');
+})->middleware(['auth'])->name('admin.books');
+
+
 Route::get('/songtexts/bohemianRhapsody',[SongtextController::class,'bhr'])->name('song.br');
 
 Route::get('/songtexts/plugInBaby',[SongtextController::class,'pib'])->name('song.pib');
