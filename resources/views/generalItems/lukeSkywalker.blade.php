@@ -4,6 +4,7 @@
 <body class="green">
     <div class="container">
             <div class="general">
+                <div class="luke-skywalker">
                     <h1>Luke Skywalker</h1>
 
                     <h2>Origineel</h2>
@@ -19,6 +20,7 @@
                         <p>
                             Luke Skywalker speelt een kleine rol in seizoen 2 aflevering 8 van The Mandalorian. Luke komt het Yoda-achtige kindje Grogu halen bij de reddingsactie op de Light Emperial Cruiser.
                         </p>
+                </div>
             </div>
     </div>
 </body>

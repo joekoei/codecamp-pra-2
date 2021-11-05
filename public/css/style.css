@@ -10,7 +10,7 @@
 }
 
 .green{
-    background-color: #317f43;
+    background-color: #388f4c;
 }
 .greenSpecial{
     background-color: #3fa055
@@ -286,6 +286,10 @@ a {
 }
 
 /* general */
+
+.luke-skywalker{
+    color: white;
+}
 
 .general{
     color: black;
