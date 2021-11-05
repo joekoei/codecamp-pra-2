@@ -4,6 +4,7 @@ use App\Http\Controllers\DrinksController;
 use App\Http\Controllers\SongtextController;
 use App\Http\Controllers\ToolController;
 use App\Models\Book;
+use App\Models\User;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -34,6 +35,14 @@ Route::get('/dashboard/books', function (){
     return view('admin.books')->with(compact('books'));
 })->middleware(['auth'])->name('admin.books');
 
+Route::get('/dashboard/users',function () {
+    $users = User::all();
+   return view('admin.users')->with(compact('users'));
+})->middleware(['auth'])->name('admin.users');
+
+Route::get('/dashboard/users/{user}',function (User $user){
+    return view('admin.books.edit')->with(compact('user'));
+})->middleware(['auth'])->name('admin.users.edit');
 
 Route::get('/dashboard/books/{book}',function (Book $book){
     return view('admin.books.edit')->with(compact('book'));
