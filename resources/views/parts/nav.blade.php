@@ -26,6 +26,7 @@
         <div class="subnav-content">
             <a href="{{route('items.hamers')}}">Hamers</a>
             <a href="{{route('items.circular')}}">Cirkelzaag</a>
+            <a href="{{route('items.screwDriver')}}">Schroevendraaier</a>
         </div>
     </div>
     <div class="subnav">

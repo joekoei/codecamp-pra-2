@@ -37,8 +37,8 @@ class ToolController extends Controller
         return view('generalItems.lukeSkywalker');
     }
 
-    public function streaming(){
-        return view('generalItems.streaming');
+    public function screwdriver(){
+        return view('generalItems.screwdriver');
     }
 
 }
