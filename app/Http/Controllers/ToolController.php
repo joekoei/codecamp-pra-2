@@ -41,4 +41,8 @@ class ToolController extends Controller
         return view('generalItems.screwdriver');
     }
 
+    public function handSaw(){
+        return view('generalItems.handSaw');
+    }
+
 }
