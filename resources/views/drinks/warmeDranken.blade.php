@@ -7,6 +7,7 @@
             <div class="warmeDranken">
                 <h1>Warme Dranken</h1>
                 <p>Hier komt een stuk over de drie warme dranken Koffie, Latte en Thee</p>
+<<<<<<< Updated upstream
                 <div class="koffie">
                     <H3>Koffie</H3>
                     <p>Koffie is een meestal warm genuttigde drank, die wordt bereid op basis van water en gedroogde en gebrande pitten van de koffieplant (Coffea spp.) die vanwege hun vorm koffiebonen worden genoemd. Koffie bevat het stimulerende middel cafeïne.</p>
@@ -18,6 +19,19 @@
                 <div class="thee">
                     <H3>Thee</H3>
                     <p>Thee is een warme drank die wordt gemaakt door infusie van de gedroogde bladeren van de theeplant Camellia sinensis. Alle als thee verkochte producten die niet van deze plant afkomstig zijn (bijvoorbeeld kamillethee of rooibos), zijn dan ook geen echte thee maar kruidenthee.</p>
+=======
+                <div class="cola">
+                    <H3>Koffie</H3>
+                    <p></p>
+                </div>
+                <div class="up">
+                    <H3>Latte</H3>
+                    <p></p>
+                </div>
+                <div class="sinas">
+                    <H3>Thee</H3>
+                    <p></p>
+>>>>>>> Stashed changes
                 </div>
             </div>
         </div>
