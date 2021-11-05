@@ -415,3 +415,18 @@ a {
 .Hand-Saw-Foto{
     /* position: absolute; */
 }
+
+/* Cola -> Roger Moore */
+.James-Bond-Cola {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 5px 15px 5px 0;
+    background-color: #317f43;
+    width: 100px;
+}
+
+.James-Bond-Cola a {
+    text-decoration: none;
+    color: white; 
+}
