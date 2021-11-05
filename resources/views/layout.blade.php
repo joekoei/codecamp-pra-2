@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script async
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCaHwaW9v8rfqQuNJ9OIbQ4TxzbIK3a9XE&callback=initMap">
+    </script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
     </style>
