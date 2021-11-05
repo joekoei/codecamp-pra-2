@@ -53,7 +53,6 @@
                                     id="inline-full-name" type="email" value="{{Auth::user()->rol}}">
                             </div>
                         </div>
-
                     </form>
                 </div>
             </div>
