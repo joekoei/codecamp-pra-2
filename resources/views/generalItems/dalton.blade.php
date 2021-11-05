@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('content')
-<body class="green">
+<body class="green-dalton">
     <div class="container">
             <div class="dalton">
                 <h1>Timothy Dalton</h1>

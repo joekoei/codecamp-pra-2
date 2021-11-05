@@ -16,6 +16,11 @@
     background-color: #3fa055
 }
 
+.green-dalton {
+
+    background-color: #38c172;
+}
+
 .orange{
     background-color:#b97d4b;
 }
@@ -396,14 +401,14 @@ a {
     /* The width is the width of the web page */
 }
 
-/* Dranken */ 
-.warmeDranken 
-{ 
-    color: white; 
-} 
+/* Dranken */
+.warmeDranken
+{
+    color: white;
+}
 .frisDranken
-{ 
-    color: white; 
+{
+    color: white;
 }
 
 /* Handzaag */
