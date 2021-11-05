@@ -3,6 +3,7 @@
 use App\Http\Controllers\DrinksController;
 use App\Http\Controllers\SongtextController;
 use App\Http\Controllers\ToolController;
+use App\Models\Book;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -29,7 +30,8 @@ Route::get('/dashboard/profile', function (){
 })->middleware(['auth'])->name('profile');
 
 Route::get('/dashboard/books', function (){
-    return view('admin.books');
+    $books = Book::all();
+    return view('admin.books')->with(compact('books'));
 })->middleware(['auth'])->name('admin.books');
 
 
