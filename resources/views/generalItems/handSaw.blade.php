@@ -7,6 +7,7 @@
             <h1>Handzaag</h1>
 
             <h2>Wat is een Handzaag</h2>
+            <img class="Hand-Saw-Foto" id="Hand-Saw-Foto"src="{{asset("img/Hand-Saw-Foto.png")}}" alt="handSaw" width="350px">
             <p>
                 Een handzaag is een zaag met een taps toelopend, veerkrachtig stalen zaagblad dat voorzien is van een handvat. Het blad is ongeveer 1 mm dik, 400 à 500 mm lang, en circa 100 mm breed.
 
