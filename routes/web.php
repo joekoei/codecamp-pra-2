@@ -24,6 +24,10 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
+Route::get('/dashboard/profile', function (){
+    return view('profile.blade.php');
+})->middleware(['auth'])->name('profile');
+
 Route::get('/songtexts/bohemianRhapsody',[SongtextController::class,'bhr'])->name('song.br');
 
 Route::get('/songtexts/plugInBaby',[SongtextController::class,'pib'])->name('song.pib');
