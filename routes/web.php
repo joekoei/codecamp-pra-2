@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\authable\AuthController;
 use App\Http\Controllers\DrinksController;
 use App\Http\Controllers\SongtextController;
 use App\Http\Controllers\ToolController;
@@ -22,31 +23,17 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/dashboard', function () {
-    return view('admin.dashboard');
-})->middleware(['auth'])->name('dashboard');
+Route::get('/dashboard',[AuthController::class,'index'])->middleware(['auth'])->name('dashboard');
 
-Route::get('/dashboard/profile', function (){
-    return view('admin.profile');
-})->middleware(['auth'])->name('profile');
+Route::get('/dashboard/profile',[AuthController::class,'profile'])->middleware(['auth'])->name('profile');
 
-Route::get('/dashboard/books', function (){
-    $books = Book::all();
-    return view('admin.books')->with(compact('books'));
-})->middleware(['auth'])->name('admin.books');
+Route::get('/dashboard/books', [AuthController::class,'books'])->middleware(['auth'])->name('admin.books');
 
-Route::get('/dashboard/users',function () {
-    $users = User::all();
-   return view('admin.users')->with(compact('users'));
-})->middleware(['auth'])->name('admin.users');
+Route::get('/dashboard/users',[AuthController::class,'users'])->middleware(['auth'])->name('admin.users');
 
-Route::get('/dashboard/users/{user}',function (User $user){
-    return view('admin.books.edit')->with(compact('user'));
-})->middleware(['auth'])->name('admin.users.edit');
+Route::get('/dashboard/users/{user}',[AuthController::class,'user'])->middleware(['auth'])->name('admin.users.edit');
 
-Route::get('/dashboard/books/{book}',function (Book $book){
-    return view('admin.books.edit')->with(compact('book'));
-})->middleware(['auth'])->name('admin.books.edit');
+Route::get('/dashboard/books/{book}',[AuthController::class,'book'])->middleware(['auth'])->name('admin.books.edit');
 
 Route::get('/songtexts/bohemianRhapsody',[SongtextController::class,'bhr'])->name('song.br');
 
