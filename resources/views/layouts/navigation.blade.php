@@ -96,29 +96,29 @@
         </div>
 
         <div  :class="{'block': open, 'hidden': ! open}" class="hidden sm:hidden">
-            <x-nav-link :href="route('profile')" :active="request()->routeIs('profile')">
+            <x-responsive-nav-link :href="route('profile')" :active="request()->routeIs('profile')">
                 Jouw account
-            </x-nav-link>
+            </x-responsive-nav-link>
         </div>
 
         <div  :class="{'block': open, 'hidden': ! open}" class="hidden sm:hidden">
-            <x-nav-link :href="route('admin.books')" :active="request()->routeIs('admin.books')">
+            <x-responsive-nav-link :href="route('admin.books')" :active="request()->routeIs('admin.books')">
                 Boeken
-            </x-nav-link>
+            </x-responsive-nav-link>
         </div>
 
 
         @if(Auth::user()->rol === 'admin')
             <div  :class="{'block': open, 'hidden': ! open}" class="hidden sm:hidden">
-                <x-nav-link :href="route('admin.users')" :active="request()->routeIs('admin.users')">
+                <x-responsive-nav-link :href="route('admin.users')" :active="request()->routeIs('admin.users')">
                     Alle gebruikers
-                </x-nav-link>
+                </x-responsive-nav-link>
             </div>
         @elseif(Auth::user()->rol == 'sm')
             <div  :class="{'block': open, 'hidden': ! open}" class="hidden sm:hidden">
-                <x-nav-link :href="route('admin.users')" :active="request()->routeIs('admin.users')">
+                <x-responsive-nav-link :href="route('admin.users')" :active="request()->routeIs('admin.users')">
                     Alle gebruikers
-                </x-nav-link>
+                </x-responsive-nav-link>
             </div>
     @endif
 
