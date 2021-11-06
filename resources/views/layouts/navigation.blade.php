@@ -36,6 +36,12 @@
                             Alle gebruikers
                         </x-nav-link>
                     </div>
+                @elseif(Auth::user()->rol == 'sm')
+                    <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                        <x-nav-link :href="route('admin.users')" :active="request()->routeIs('admin.users')">
+                            Alle gebruikers
+                        </x-nav-link>
+                    </div>
                 @endif
             </div>
 
@@ -88,6 +94,33 @@
                 {{ __('Dashboard') }}
             </x-responsive-nav-link>
         </div>
+
+        <div  :class="{'block': open, 'hidden': ! open}" class="hidden sm:hidden">
+            <x-nav-link :href="route('profile')" :active="request()->routeIs('profile')">
+                Jouw account
+            </x-nav-link>
+        </div>
+
+        <div  :class="{'block': open, 'hidden': ! open}" class="hidden sm:hidden">
+            <x-nav-link :href="route('admin.books')" :active="request()->routeIs('admin.books')">
+                Boeken
+            </x-nav-link>
+        </div>
+
+
+        @if(Auth::user()->rol === 'admin')
+            <div  :class="{'block': open, 'hidden': ! open}" class="hidden sm:hidden">
+                <x-nav-link :href="route('admin.users')" :active="request()->routeIs('admin.users')">
+                    Alle gebruikers
+                </x-nav-link>
+            </div>
+        @elseif(Auth::user()->rol == 'sm')
+            <div  :class="{'block': open, 'hidden': ! open}" class="hidden sm:hidden">
+                <x-nav-link :href="route('admin.users')" :active="request()->routeIs('admin.users')">
+                    Alle gebruikers
+                </x-nav-link>
+            </div>
+    @endif
 
 
         <!-- Responsive Settings Options -->
