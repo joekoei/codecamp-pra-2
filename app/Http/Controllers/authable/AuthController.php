@@ -33,7 +33,7 @@ class AuthController extends Controller
     }
 
     public function book(Book $book){
-        return view('admin.edit.books')->with(compact('book'));
+        return view('admin.edit.book')->with(compact('book'));
     }
 
     public function editUser(Request $request){
@@ -49,6 +49,22 @@ class AuthController extends Controller
         $user->save();
 
         return redirect()->route('admin.users');
+    }
+
+    public function editBook(Request $request){
+        $book = Book::findOrFail($request->id);
+
+        $name = $request->name;
+        $auteur = $request->auteur;
+        $price = $request->price;
+
+        $book->name = $name;
+        $book->auteur = $auteur;
+        $book->price = $price;
+
+        $book->save();
+
+        return redirect()->route('admin.books');
     }
 
 }

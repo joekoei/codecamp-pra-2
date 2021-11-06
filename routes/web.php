@@ -37,6 +37,8 @@ Route::get('/dashboard/books/{book}',[AuthController::class,'book'])->middleware
 
 Route::post('/dashboard/users',[AuthController::class,'editUser'])->middleware(['auth'])->name('admin.user.edit');
 
+Route::post('/dashboard/books',[AuthController::class,'editBook'])->middleware(['auth'])->name('admin.book.edit');
+
 Route::get('/songtexts/bohemianRhapsody',[SongtextController::class,'bhr'])->name('song.br');
 
 Route::get('/songtexts/plugInBaby',[SongtextController::class,'pib'])->name('song.pib');
