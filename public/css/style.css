@@ -361,6 +361,11 @@ a {
     justify-content: center;
 }
 
+.Logo-Home-Page{
+    width: 1200px;
+    margin-bottom: 50px;
+}
+
 #homePageTable {
     display: flex;
     justify-content: center;

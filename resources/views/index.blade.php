@@ -3,7 +3,7 @@
 <div class="container">
     <div class="content">
         <div class="homePageStyle">
-            <img src="{{asset("img/logo.png")}}" alt="logo">
+            <img class="Logo-Home-Page" src="{{asset("img/logo.png")}}" alt="logo">
         </div>
 
         <div id="map"></div>
