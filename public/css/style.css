@@ -116,7 +116,7 @@ a {
     margin: 0;
   }
 
-  /* Add a red background color to navigation links on hover */
+  /* Add a green background color to navigation links on hover */
   .navbar a:hover, .subnav:hover .subnavbtn {
     background-color: #3fa055;
   }
@@ -339,8 +339,8 @@ a {
 #Luke-SkyWalker-foto {
 
     position: absolute;
-    right: 200px;
-    top: 175px;
+    right: 600px;
+    top: 170px;
     box-shadow: 2px 2px 3px 1px #888888;
 }
 /* index */
@@ -444,7 +444,7 @@ a {
 .Button-Dranken a {
     margin: 0 auto;
     text-decoration: none;
-    color: white; 
+    color: white;
 }
 
 /* George Clooney */
@@ -455,3 +455,4 @@ a {
     box-shadow: 2px 2px 3px 1px #888888;
     width: 190px;
 }
+
