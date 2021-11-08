@@ -25,9 +25,8 @@
         <button class="subnavbtn">Gereedschappen <i class="fa fa-caret-down"></i></button>
         <div class="subnav-content">
             <a href="{{route('items.hamers')}}">Hamers</a>
-            <a href="{{route('items.circular')}}">Cirkelzaag</a>
             <a href="{{route('items.screwDriver')}}">Schroevendraaier</a>
-            <a href="{{route('items.handSaw')}}">Handzaag</a>
+            <a href="{{route('items.saws')}}">Zagen</a>
         </div>
     </div>
     <div class="subnav">

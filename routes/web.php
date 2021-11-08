@@ -74,6 +74,8 @@ Route::get('/generalItems/streaming', [ToolController::class,'streaming'])->name
 
 Route::get('/generalItems/circularSaw', [ToolController::class,'circularSaw'])->name('items.circular');
 
+Route::get('/generalItems/saws', [ToolController::class,'saws'])->name('items.saws');
+
 Route::get('/generalItems/screwDriver', [ToolController::class,'screwDriver'])->name('items.screwDriver');
 
 Route::get('/generalItems/handSaw', [ToolController::class,'handSaw'])->name('items.handSaw');

@@ -17,6 +17,10 @@ class ToolController extends Controller
         return view('generalItems.circularSaw');
     }
 
+    public function saws(){
+        return view('generalItems.saws');
+    }
+
     public function dalton(){
         return view('generalItems.dalton');
     }
