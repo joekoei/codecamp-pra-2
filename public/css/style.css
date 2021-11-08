@@ -343,6 +343,10 @@ a {
     top: 170px;
     box-shadow: 2px 2px 3px 1px #888888;
 }
+
+#lastHamer{
+    margin-bottom: 100px;
+}
 /* index */
 
 .container{
@@ -363,7 +367,7 @@ a {
 
 .Logo-Home-Page{
     width: 1200px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 #homePageTable {
