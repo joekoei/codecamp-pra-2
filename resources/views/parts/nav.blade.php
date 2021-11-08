@@ -34,13 +34,13 @@
     <div class="subnav">
         <button class="subnavbtn">Songteksten <i class="fa fa-caret-down"></i></button>
         <div class="subnav-content">
-            <a href="{{route('song.br')}}">Bohemian Rhapsody</a>
-            <a href="{{route('song.kq')}}">Killer Queen</a>
-            <a href="{{route('song.watc')}}">We are the champions</a>
-            <a href="{{route('song.pib')}}">Plug in Baby</a>
-            <a href="{{route('song.u')}}">Uprising</a>
-            <a href="{{route('song.umb')}}">Uprising my baby</a>
-            <a href="{{route('song.mm')}}">Madness</a>
+            <a href="{{route('song.br')}}">Bohemian Rhapsody - Queen</a>
+            <a href="{{route('song.kq')}}">Killer Queen - Queen</a>
+            <a href="{{route('song.watc')}}">We are the champions - Queen</a>
+            <a href="{{route('song.pib')}}">Plug in Baby - Muse</a>
+            <a href="{{route('song.u')}}">Uprising - Muse</a>
+            <a href="{{route('song.umb')}}">Uprising - MyBaby</a>
+            <a href="{{route('song.mm')}}">Madness - Muse</a>
         </div>
     </div>
     <a href="/">Home</a>

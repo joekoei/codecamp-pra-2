@@ -420,7 +420,10 @@ a {
 
 /* Handzaag */
 .Hand-Saw-Foto{
-    /* position: absolute; */
+    position: absolute;
+    right: 490px;
+    top: 175px;
+    box-shadow: 2px 2px 3px 1px #888888;
 }
 
 /* Cola -> Roger Moore */
@@ -437,4 +440,13 @@ a {
     margin: 0 auto;
     text-decoration: none;
     color: white; 
+}
+
+/* George Clooney */
+.George-Clooney-Foto{
+    position: absolute;
+    right: 490px;
+    top: 175px;
+    box-shadow: 2px 2px 3px 1px #888888;
+    width: 190px;
 }
