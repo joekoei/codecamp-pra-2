@@ -14,7 +14,7 @@ class UpdateBookTable extends Migration
     public function up()
     {
         Schema::table('books',function (Blueprint $table){
-           $table->string('desc');
+           $table->string('desc')->nullable(true);
         });
     }
 
