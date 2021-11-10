@@ -16,7 +16,7 @@
             <tr>
                 <th>Naam van het boek</th>
                 <th>Auteur</th>
-                <th>Prijs</th>
+                <th>Prijs in €</th>
             </tr>
             @foreach($books as $book)
                 <tr>
