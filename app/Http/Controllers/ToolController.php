@@ -2,11 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Book;
+
 class ToolController extends Controller
 {
 
     public function book(){
-        return view('generalItems.books');
+        $books = Book::all();
+        return view('generalItems.books')->with(compact('books'));
     }
 
     public function chainsaw(){
@@ -15,6 +18,10 @@ class ToolController extends Controller
 
     public function circularSaw(){
         return view('generalItems.circularSaw');
+    }
+
+    public function saws(){
+        return view('generalItems.saws');
     }
 
     public function dalton(){

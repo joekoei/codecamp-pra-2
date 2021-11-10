@@ -1,9 +1,8 @@
 <div class="navbar">
     <img class="navbar-img" src="{{asset("img/logo.png")}}" alt="logo" width="240px">
     <a href="{{route('login')}}">Dashboard</a>
-    <a href="#contact">Contact</a>
     <div class="subnav">
-        <a href="{{route('items.book')}}">Books</a>
+        <a href="{{route('items.book')}}">Boeken</a>
     </div>
     <div class="subnav">
         <button class="subnavbtn">Overig <i class="fa fa-caret-down"></i></button>
@@ -26,9 +25,8 @@
         <button class="subnavbtn">Gereedschappen <i class="fa fa-caret-down"></i></button>
         <div class="subnav-content">
             <a href="{{route('items.hamers')}}">Hamers</a>
-            <a href="{{route('items.circular')}}">Cirkelzaag</a>
             <a href="{{route('items.screwDriver')}}">Schroevendraaier</a>
-            <a href="{{route('items.handSaw')}}">Handzaag</a>
+            <a href="{{route('items.saws')}}">Zagen</a>
         </div>
     </div>
     <div class="subnav">

@@ -6,10 +6,10 @@
             <div class="general">
                 <div class="luke-skywalker">
                     <h1>Luke Skywalker</h1>
-                    <img id="Luke-SkyWalker-foto"src="{{asset("img/LukeSkywalker.jpg")}}" alt="Roger Moore" width="200px height="500px">
+                    <img id="Luke-SkyWalker-foto"src="{{asset("img/LukeSkywalker.jpg")}}" alt="Luke Skywalker" width="150px height="400px">
                     <h2>Origineel</h2>
                     <p>
-                        Luke Skywalker is een personage uit de Star Warssaga, gespeeld door acteur Mark Hamill. Luke is de tweelingbroer van prinses Leia. Hun ouders zijn Padmé Amidala en Anakin Skywalker. Skywalker werd opgevoed door zijn oom Owen Lars en tante Beru Whitesun Lars.
+                        Luke Skywalker is een personage uit de Star Wars saga, gespeeld <br>door acteur Mark Hamill. Luke is de tweelingbroer van prinses Leia.<br> Hun ouders zijn Padmé Amidala en Anakin Skywalker. Skywalker <br> werd opgevoed door zijn oom Owen Lars en tante Beru Whitesun Lars.
                     </p>
                     <h2>Expanded universe</h2>
                         <p>
