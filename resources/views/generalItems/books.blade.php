@@ -16,12 +16,14 @@
             <tr>
                 <th>Naam van het boek</th>
                 <th>Auteur</th>
+                <th>Aantal Blz.</th>
                 <th>Prijs in €</th>
             </tr>
             @foreach($books as $book)
                 <tr>
                     <td>{{$book->name}}</td>
                     <td>{{$book->auteur}}</td>
+                    <td>{{$book->pages}}</td>
                     <td>{{$book->price}}</td>
                 </tr>
             @endforeach
