@@ -30,7 +30,7 @@
                 </div>
 
 
-                @if(Auth::user()->rol === 'admin')
+                @if(Auth::user()->rol === 'beheerder')
                     <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                         <x-nav-link :href="route('admin.users')" :active="request()->routeIs('admin.users')">
                             Alle gebruikers
