@@ -5,7 +5,7 @@
         <a href="{{route('items.book')}}">Boeken</a>
     </div>
     <div class="subnav">
-        <button class="subnavbtn">Overig <i class="fa fa-caret-down"></i></button>
+        <button class="subnavbtn">Film wereld <i class="fa fa-caret-down"></i></button>
         <div class="subnav-content">
             <a href="{{route('personenAndPersonages.personen')}}">Personen</a>
             <a href="{{route('personenAndPersonages.personages')}}">Personages</a>
