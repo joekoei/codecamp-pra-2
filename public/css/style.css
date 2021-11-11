@@ -370,34 +370,21 @@ a {
     margin-bottom: 10px;
 }
 
-#homePageTable {
-    display: flex;
-    justify-content: center;
-    margin-left:5px;
-    margin-top: 15px;
-    display: flex;
-    font-family: Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 300px;
-    height: 25px;
+  #first{
+    list-style-type: none;
+    position: absolute;
+    top: 500px;
+    right: 750px;
+    font-size: 20px;    
   }
 
-  #homePageTable td, #homePageTable th {
-    border: 1px solid #ddd;
-    padding: 4px;
-
+  #second{
+    list-style-type: none;
+    position: absolute;
+    top: 500px;
+    right: 500px;
+    font-size: 20px;
   }
-
-  #homePageTable tr:nth-child(even){background-color: #f2f2f2;}
-
-  #homePageTable th {
-    padding-top: 8px;
-    padding-bottom: 8px;
-    text-align: left;
-    background-color: #04AA6D;
-    color: white;
-  }
-
 
   /* split */
   .row{
@@ -413,6 +400,8 @@ a {
 #map {
     height: 300px;
     width: 500px;
+    margin-left: 150px;
+    margin-top: 20px;
 }
 
 /* Dranken */

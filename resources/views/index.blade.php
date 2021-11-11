@@ -8,19 +8,22 @@
 
         <div id="map"></div>
 
-        <div class="tabelHomePage">
-                <table id="homePageTable">
-                    <tr>
-                        <th>Plaats:</th>
-                        <th>Adres:</th>
-                    </tr>
-                    <tr>
-                        <td>Den Bosch</td>
-                        <td>Koestraat 1</td>
-                    </tr>
-                </table>
-
+        <div class="contactInfoHp">
+            <div class="contactInfoHpList">
+                <ul id="first">
+                    <li>Straat:</li>
+                    <li>Postcode:</li>
+                    <li>Telefooon:</li>
+                    <li>Mobiel:</li>
+                </ul>
+                <ul id="second">
+                    <li>Koestraat 1</li>
+                    <li>5223AG Den Bosch</li>
+                    <li>073-123321123</li>
+                    <li>06 987789987</li>
+                </ul>
             </div>
+        </div>
     </div>
 </div>
     <div class="time">
