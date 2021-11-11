@@ -15,13 +15,33 @@ class UserSeeder extends Seeder
     public function run()
     {
         $user = new User();
-        $user->name = 'Sales Manager';
-        $user->email = 'sm@curio.nl';
-        $user->password = '';
+        $user->name = 'Klant';
+        $user->email = 'klant@codecamp.nl';
+        $user->password = '$2y$10$6QZCyqt7Cp3KiqTJMsXeEuzbIDGk.hLSnQGUiOWZYP7.DTd42EMBm';
+        $user->save();
 
         $user = new User();
-        $user->name = 'Sales Manager';
-        $user->email = 'sm@curio.nl';
-        $user->password = '';
+        $user->name = 'Content Leverancier';
+        $user->email = 'content@codecamp.nl';
+        $user->password = '$2y$10$6QZCyqt7Cp3KiqTJMsXeEuzbIDGk.hLSnQGUiOWZYP7.DTd42EMBm';
+        $user->save();
+
+        $user = new User();
+        $user->name = 'Maintenance Coordinator';
+        $user->email = 'maintenance@codecamp.nl';
+        $user->password = '$2y$10$6QZCyqt7Cp3KiqTJMsXeEuzbIDGk.hLSnQGUiOWZYP7.DTd42EMBm';
+        $user->save();
+
+        $user = new User();
+        $user->name = 'Marketing Manager';
+        $user->email = 'marketing@codecamp.nl';
+        $user->password = '$2y$10$6QZCyqt7Cp3KiqTJMsXeEuzbIDGk.hLSnQGUiOWZYP7.DTd42EMBm';
+        $user->save();
+
+        $user = new User();
+        $user->name = 'Beheerder';
+        $user->email = 'beheerder@codecamp.nl';
+        $user->password = '$2y$10$6QZCyqt7Cp3KiqTJMsXeEuzbIDGk.hLSnQGUiOWZYP7.DTd42EMBm';
+        $user->save();
     }
 }
