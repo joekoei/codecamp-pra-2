@@ -57,10 +57,18 @@ class AuthController extends Controller
         $name = $request->name;
         $auteur = $request->auteur;
         $price = $request->price;
+        if(!empty($request->desc)){
+            $desc = $request->desc;
+        } else {
+            $desc = "";
+        }
 
         $book->name = $name;
         $book->auteur = $auteur;
         $book->price = $price;
+        if($desc != null){
+            $book->desc = $desc;
+        }
 
         $book->save();
 
