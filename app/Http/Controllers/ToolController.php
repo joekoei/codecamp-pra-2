@@ -55,4 +55,12 @@ class ToolController extends Controller
     public function georgeClooney(){
         return view('generalItems.georgeClooney');
     }
+
+    public function personen(){
+        return view('personenAndPersonages.personen');
+    }
+
+    public function personages(){
+        return view('personenAndPersonages.personages');
+    }
 }

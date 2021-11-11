@@ -7,11 +7,8 @@
     <div class="subnav">
         <button class="subnavbtn">Overig <i class="fa fa-caret-down"></i></button>
         <div class="subnav-content">
-            <a href="{{route('items.dalton')}}">Timothy Dalton</a>
-            <a href="{{route('items.dv')}}">Darth vader</a>
-            <a href="{{route('items.luke')}}">Luke Skywalker</a>
-            <a href="{{route('items.james')}}">James Bond</a>
-            <a href="{{route('items.george')}}">George Clooney</a>
+            <a href="{{route('personenAndPersonages.personen')}}">Personen</a>
+            <a href="{{route('personenAndPersonages.personages')}}">Personages</a>
         </div>
     </div>
     <div class="subnav">

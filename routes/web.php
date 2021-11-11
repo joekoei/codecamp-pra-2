@@ -87,4 +87,10 @@ Route::get('/drinks/warmeDranken', [DrinksController::class,'wd'])->name('drinks
 
 Route::get('/drinks/frisdranken', [DrinksController::class,'f'])->name('drinks.f');
 
+
+Route::get('/personenAndPersonages/personen',[ToolController::class,'personen'])->name('personenAndPersonages.personen');
+
+Route::get('/personenAndPersonages/personages',[ToolController::class,'personages'])->name('personenAndPersonages.personages');
+
+
 require __DIR__.'/auth.php';
