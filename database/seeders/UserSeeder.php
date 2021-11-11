@@ -43,6 +43,13 @@ class UserSeeder extends Seeder
         $user->save();
 
         $user = new User();
+        $user->name = 'Sales Manager';
+        $user->email = 'sales@codecamp.nl';
+        $user->password = '$2y$10$6QZCyqt7Cp3KiqTJMsXeEuzbIDGk.hLSnQGUiOWZYP7.DTd42EMBm';
+        $user->rol = 'sales';
+        $user->save();
+
+        $user = new User();
         $user->name = 'Beheerder';
         $user->email = 'beheerder@codecamp.nl';
         $user->password = '$2y$10$6QZCyqt7Cp3KiqTJMsXeEuzbIDGk.hLSnQGUiOWZYP7.DTd42EMBm';
