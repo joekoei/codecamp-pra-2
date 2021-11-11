@@ -1,6 +1,6 @@
 <div class="navbar">
     <img class="navbar-img" src="{{asset("img/logo.png")}}" alt="logo" width="240px">
-    <a href="{{route('login')}}">Dashboard</a>
+    <a href="{{route('login')}}">Log in</a>
     <div class="subnav">
         <a href="{{route('items.book')}}">Boeken</a>
     </div>
