@@ -9,7 +9,7 @@
                     <div class="row">
                         <div class="column">
                             <div class="redFont">
-                                <p class="redFont">
+                                <p>
                                 Allow me in your tub
                                 Allow me in your club
                                 Allow me to drink from your cup
