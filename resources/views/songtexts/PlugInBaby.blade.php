@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('content')
-<body class="red">
+<body class="orange">
     <div class="container">
         <div class="songtext">
             <div class="plugInBaby">
