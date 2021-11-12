@@ -527,3 +527,9 @@ a {
 .personages{
     margin-top: 100px;
 }
+
+.darthVaderFoto{
+    position: absolute;
+    top:150px;
+    right: 500px;
+}
