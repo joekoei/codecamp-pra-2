@@ -47,6 +47,10 @@
 .whiteText p{
     color: white;
 }
+
+.redFont{
+    color: #cc0000;
+}
 /*--------------------- Navbar CSS ---------------------*/
 
 /* .navbar OUDE {
