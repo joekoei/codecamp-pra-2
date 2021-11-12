@@ -28,6 +28,7 @@ Route::get('/dashboard',[AuthController::class,'index'])->middleware(['auth'])->
 Route::get('/dashboard/profile',[AuthController::class,'profile'])->middleware(['auth'])->name('profile');
 
 Route::get('/dashboard/books', [AuthController::class,'books'])->middleware(['auth'])->name('admin.books');
+Route::get('/dashboard/books/create',[AuthController::class,'createBook'])->middleware(['auth'])->name('admin.books.create');
 
 Route::get('/dashboard/users',[AuthController::class,'users'])->middleware(['auth'])->name('admin.users');
 
@@ -38,6 +39,8 @@ Route::get('/dashboard/books/{book}',[AuthController::class,'book'])->middleware
 Route::post('/dashboard/users',[AuthController::class,'editUser'])->middleware(['auth'])->name('admin.user.edit');
 
 Route::post('/dashboard/books',[AuthController::class,'editBook'])->middleware(['auth'])->name('admin.book.edit');
+
+Route::post('/dashboard', [AuthController::class,'storebook'])->middleware(['auth'])->name('admin.books.create.method');
 
 Route::get('/songtexts/bohemianRhapsody',[SongtextController::class,'bhr'])->name('song.br');
 

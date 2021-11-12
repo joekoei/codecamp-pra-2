@@ -22,7 +22,7 @@
                                             <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                                                 Naam van het boek
                                             </th>
-                                            @if(Auth::user()->rol === 'content' || Auth::user()->rol === 'sales')
+                                            @if(Auth::user()->rol === 'content' || Auth::user()->rol === 'sales' || Auth::user()->rol === 'beheerder')
                                                 <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                                                     Edit
                                                 </th>
@@ -46,7 +46,7 @@
                                                 <td class="px-6 py-4 whitespace-nowrap">
                                                     <div class="text-sm text-gray-900">{{$book->name}}</div>
                                                 </td>
-                                                @if(Auth::user()->rol === 'content' || Auth::user()->rol === 'sales')
+                                                @if(Auth::user()->rol === 'content' || Auth::user()->rol === 'sales' || Auth::user()->rol === 'beheerder')
                                                     <td class="px-6 py-4 whitespace-nowrap text-left text-sm font-medium">
                                                         <a href="{{route('admin.books.edit',$book)}}" class="text-indigo-600 hover:text-indigo-900">Edit</a>
                                                     </td>
@@ -58,6 +58,13 @@
                                         </tbody>
                                     </table>
                                 </div>
+                                @if(Auth::user()->rol === 'content' || Auth::user()->rol === 'beheerder')
+                                    <div class="md:flex md:justify-end mb-6 mt-6">
+                                        <div>
+                                            <a class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" href="{{route('admin.books.create')}}">Maak nieuw boek aan</a>
+                                        </div>
+                                    </div>
+                                @endif
                             </div>
                         </div>
                     </div>

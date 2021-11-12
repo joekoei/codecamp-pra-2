@@ -78,4 +78,37 @@ class AuthController extends Controller
         return redirect()->route('admin.books');
     }
 
+    public function createBook(){
+        return view('admin.newbook');
+    }
+
+    public function storeBook(Request $request){
+        $book = new Book();
+
+        $name = $request->name;
+        $auteur = $request->auteur;
+        $page = $request->page;
+        if(!empty( $request->price)){
+            $price = $request->price;
+        } else {
+            $price = '0';
+        }
+
+        if(!empty($request->desc)){
+            $desc = $request->desc;
+        } else {
+            $desc = "-";
+        }
+
+        $book->name = $name;
+        $book->auteur = $auteur;
+        $book->price = $price;
+        $book->desc = $desc;
+        $book->pages = $page;
+
+        $book->save();
+
+        return redirect()->route('admin.books');
+    }
+
 }
