@@ -7,8 +7,9 @@
             <h1>Schroevendraaier</h1>
 
             <h2>Wat is een Schroevendraaier</h2>
+            <img id="schroevedraaier" class="screwdriverFoto" src="{{asset("img/schroevedraaierFoto.jpg")}}" alt="gereedschap" width="250px" height="250px">
             <p>
-                Een schroevendraaier is een stuk gereedschap waarmee schroeven worden aangebracht en verwijderd. Het bestaat uit een handvat met een metalen steel waarvan het uiteinde zo gevormd is dat het in de kop van een schroef past.
+                Een schroevendraaier is een stuk gereedschap waarmee<br> schroeven worden aangebracht en verwijderd. Het bestaat<br> uit een handvat met een metalen steel waarvan het uiteinde<br> zo gevormd is dat het in de kop van een schroef past.
             </p>
             <h2>verschillende Typen</h2>
                 <h3>sleufkopschroevendraaier schroevendraaier</h3>

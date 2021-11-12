@@ -47,6 +47,12 @@
 .whiteText p{
     color: white;
 }
+
+/* font kleur */
+
+#redFont{
+    color: #cc0000;
+}
 /*--------------------- Navbar CSS ---------------------*/
 
 /* .navbar OUDE {
@@ -532,4 +538,10 @@ a {
     position: absolute;
     top:150px;
     right: 500px;
+}
+
+.screwdriverFoto{
+    position: absolute;
+    top:150px;
+    right: 650px;
 }

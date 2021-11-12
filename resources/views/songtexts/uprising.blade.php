@@ -1,14 +1,14 @@
 @extends('layout')
 
 @section('content')
-<body class="orange">
+<body class="green">
     <div class="container">
         <div class="containerUprising">
             <div class="songtext">
             <h1>Uprising Lyric</h1>
                     <div class="row">
                         <div class="column">
-                            <p>
+                            <p id="redFont">
                                 Paranoia is in bloom
                                 The PR transmissions will resume
                                 They'll try to push drugs that keep us all dumbed down
@@ -32,7 +32,7 @@
                             </p>
                         </div>
                         <div class="column">
-                            <p>
+                            <p id="redFont">
                                 Rise up and take the power back
                                 It's time the fat cats had a heart attack
                                 You know that their time's coming to an end
