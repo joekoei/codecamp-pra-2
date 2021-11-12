@@ -7,9 +7,10 @@
                 <h1>Darth vader</h1>
 
                 <h2>Origineel</h2>
+                <img id="darthVader-Foto" class="darthVaderFoto" src="{{asset("img/Darth-Vader-Card.jpg")}}" alt="Darth Vader" width="250px" height="250px">
                 <p>
-                    Darth Vader is een personage uit de Star Wars-films. Hij is als Sith-leerling ondergeschikt aan keizer Palpatine, ook bekend als Darth Sidious.
-                    In de jaren 1977, 1980 en 1983 werd Darth Vader gespeeld door acteur David Prowse en stuntman Bob Anderson. Zijn stem werd echter ingesproken door James Earl Jones, omdat diens stem veel zwaarder, duisterder en dreigender klonk.
+                    Darth Vader is een personage uit de Star Wars-films.<br> Hij is als Sith-leerling ondergeschikt aan keizer Palpatine,<br> ook bekend als Darth Sidious.
+                    In de jaren 1977, 1980 en<br> 1983 werd Darth Vader gespeeld door acteur David Prowse<br> en stuntman Bob Anderson. Zijn stem werd echter ingesproken<br> door James Earl Jones, omdat diens stem veel zwaarder, duisterder<br> en dreigender klonk.
                 </p>
                 <h2>Personage | acteurs</h2>
                     <p>
