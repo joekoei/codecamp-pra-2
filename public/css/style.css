@@ -48,7 +48,9 @@
     color: white;
 }
 
-.redFont{
+/* font kleur */
+
+#redFont{
     color: #cc0000;
 }
 /*--------------------- Navbar CSS ---------------------*/

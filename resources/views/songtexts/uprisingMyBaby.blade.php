@@ -8,8 +8,7 @@
             <h1>Uprising My Baby Lyric</h1>
                     <div class="row">
                         <div class="column">
-                            <div class="redFont">
-                                <p>
+                                <p id="redFont">
                                 Allow me in your tub
                                 Allow me in your club
                                 Allow me to drink from your cup
@@ -27,11 +26,9 @@
                                 I Believe in your truth
                                 I'll be coming back for more
                                 </p>
-                            </div>
                         </div>
                         <div class="column">
-                            <div class="redFont">
-                                <p>
+                                <p id="redFont">
                                     I Believe in your land
                                     I Believe in that man
                                     I Believe in your command
@@ -43,7 +40,6 @@
                                     This girl keeps on rising
                                     Keep on rising up
                                 </p>
-                            </div>
                         </div>
                     </div>
             </div>
