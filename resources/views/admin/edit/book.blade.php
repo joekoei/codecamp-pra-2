@@ -79,6 +79,18 @@
                             </div>
                         </div>
                     </form>
+
+                    @if(Auth::user()->rol === 'content' || Auth::user()->rol === 'beheerder')
+                        <form action="{{route('admin.book.destroy')}}" method="post">
+                            @csrf
+                            <input type="hidden" name="id" value="{{$book->id}}">
+                            <div class="md:flex md:justify-end mb-6">
+                                <div>
+                                    <input type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" value="Verwijder dit boek">
+                                </div>
+                            </div>
+                        </form>
+                    @endif
                 </div>
             </div>
         </div>

@@ -36,6 +36,13 @@ class AuthController extends Controller
         return view('admin.edit.book')->with(compact('book'));
     }
 
+    public function destroy(Request $request){
+        $book = Book::findOrFail($request->id);
+        $book->delete();
+
+        return redirect()->route('admin.books');
+    }
+
     public function editUser(Request $request){
         $user = User::findOrFail($request->id);
 

@@ -40,7 +40,8 @@ Route::post('/dashboard/users',[AuthController::class,'editUser'])->middleware([
 
 Route::post('/dashboard/books',[AuthController::class,'editBook'])->middleware(['auth'])->name('admin.book.edit');
 
-Route::post('/dashboard', [AuthController::class,'storebook'])->middleware(['auth'])->name('admin.books.create.method');
+Route::post('/dashboard/book/create', [AuthController::class,'storebook'])->middleware(['auth'])->name('admin.books.create.method');
+Route::post('/dashboard/book/delete',[AuthController::class,'destroy'])->middleware(['auth'])->name('admin.book.destroy');
 
 Route::get('/songtexts/bohemianRhapsody',[SongtextController::class,'bhr'])->name('song.br');
 
